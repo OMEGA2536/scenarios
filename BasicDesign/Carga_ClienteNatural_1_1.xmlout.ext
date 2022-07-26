@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root OsUserName="IT DATA" appVer="TestStudio_3.0.0.202110301919">
+    <ExecutionLog comment="Crear Cliente Natural" status="New" topLevel="true">
+        <Parameters/>
+        <Day phase="" seqId="1,2" value="1">
+            <Sequence Duration="304018" Time="1649790178870" comment="Crear cliente individual" number="1" seqid="3" type="Test" user="WATUNCAR1" usergroup="TEST_QA">
+                <Inputs/>
+                <Outputs Time="1649790178870">
+                    <Iteration Time="1649790179778" number="1">
+                        <Script Duration="35766" Time="1649790179778" class="com.corebanking.testmanager.t24.http.api.VERSION" name="com.corebanking.testmanager.t24.http.api.VERSION" scriptExecution="PASSED" user="WATUNCAR1" usergroup="TEST_QA">
+                            <Version Duration="22109" Time="1649790192950" comment="" mode="I" name="CUSTOMER_INPUT.BRANCH.PE" version="CUSTOMER,INPUT.BRANCH.PE">
+                                <RunLog>
+                                    <INFO/>
+                                    <SENT/>
+                                    <RECEIVED/>
+                                    <TransactionID/>
+                                    <SET_FIELDS/>
+                                    <SENT/>
+                                    <RECEIVED/>
+                                    <Testcase/>
+                                    <INFO Duration="8578" Status="12" Text="Committing ..." Time="1649790206466" User="1" UserGroup="UserGroup">
+                                        <INFO/>
+                                        <SENT/>
+                                        <RECEIVED/>
+                                        <Testcase Reason="" Status="2" Text="Error message: [] - EL CLIENTE YA EXISTE 4749305 (Override ID - DUP.CONTRACT)" Time="1649790214450"/>
+                                        <Testcase Reason="EL CLIENTE YA EXISTE 4749305 (Override ID - DUP.CONTRACT)" Status="1" Text="TXN FAILED" Time="1649790214778"/>
+                                        <Testcase Reason="Expected PASS" Status="1" Text="Commit failed" Time="1649790214778"/>
+                                        <INFO/>
+                                        <SENT/>
+                                        <RECEIVED/>
+                                    </INFO>
+                                    <INFO/>
+                                    <SENT/>
+                                    <RECEIVED/>
+                                </RunLog>
+                                <VersionFields/>
+                            </Version>
+                        </Script>
+                    </Iteration>
+                    <Iteration/>
+                    <Iteration/>
+                    <Iteration/>
+                    <Iteration/>
+                    <Iteration Time="1649790269099" number="6">
+                        <Script Duration="8698" Time="1649790269099" class="com.corebanking.testmanager.t24.http.api.VERSION" name="com.corebanking.testmanager.t24.http.api.VERSION" scriptExecution="PASSED" user="WATUNCAR1" usergroup="TEST_QA">
+                            <Version Duration="8354" Time="1649790269099" comment="" mode="I" name="CUSTOMER_INPUT.BRANCH.PE" version="CUSTOMER,INPUT.BRANCH.PE">
+                                <RunLog>
+                                    <INFO/>
+                                    <SENT/>
+                                    <RECEIVED/>
+                                    <TransactionID/>
+                                    <SET_FIELDS/>
+                                    <SENT/>
+                                    <RECEIVED/>
+                                    <Testcase/>
+                                    <INFO Duration="2790" Status="12" Text="Committing ..." Time="1649790274663" User="1" UserGroup="UserGroup">
+                                        <INFO/>
+                                        <SENT/>
+                                        <RECEIVED/>
+                                        <Testcase Reason="" Status="2" Text="Error message: [] - EL CLIENTE YA EXISTE 4809808 (Override ID - DUP.CONTRACT)" Time="1649790277003"/>
+                                        <Testcase Reason="EL CLIENTE YA EXISTE 4809808 (Override ID - DUP.CONTRACT)" Status="1" Text="TXN FAILED" Time="1649790277190"/>
+                                        <Testcase Reason="Expected PASS" Status="1" Text="Commit failed" Time="1649790277190"/>
+                                        <INFO/>
+                                        <SENT/>
+                                        <RECEIVED/>
+                                    </INFO>
+                                    <INFO/>
+                                    <SENT/>
+                                    <RECEIVED/>
+                                </RunLog>
+                                <VersionFields/>
+                            </Version>
+                        </Script>
+                    </Iteration>
+                    <Iteration/>
+                    <Iteration/>
+                    <Iteration/>
+                    <Iteration/>
+                    <Iteration Time="1649790337122" number="11">
+                        <Script Duration="9438" Time="1649790337122" class="com.corebanking.testmanager.t24.http.api.VERSION" name="com.corebanking.testmanager.t24.http.api.VERSION" scriptExecution="PASSED" user="WATUNCAR1" usergroup="TEST_QA">
+                            <Version Duration="8969" Time="1649790337137" comment="" mode="I" name="CUSTOMER_INPUT.BRANCH.PE" version="CUSTOMER,INPUT.BRANCH.PE">
+                                <RunLog>
+                                    <INFO/>
+                                    <SENT/>
+                                    <RECEIVED/>
+                                    <TransactionID/>
+                                    <SET_FIELDS/>
+                                    <SENT/>
+                                    <RECEIVED/>
+                                    <Testcase/>
+                                    <INFO Duration="3093" Status="12" Text="Committing ..." Time="1649790343013" User="1" UserGroup="UserGroup">
+                                        <INFO/>
+                                        <SENT/>
+                                        <RECEIVED/>
+                                        <Testcase Reason="" Status="2" Text="Error message: [] - EL CLIENTE YA EXISTE 4009663 (Override ID - DUP.CONTRACT)" Time="1649790345419"/>
+                                        <Testcase Reason="EL CLIENTE YA EXISTE 4009663 (Override ID - DUP.CONTRACT)" Status="1" Text="TXN FAILED" Time="1649790345841"/>
+                                        <Testcase Reason="Expected PASS" Status="1" Text="Commit failed" Time="1649790345841"/>
+                                        <INFO/>
+                                        <SENT/>
+                                        <RECEIVED/>
+                                    </INFO>
+                                    <INFO/>
+                                    <SENT/>
+                                    <RECEIVED/>
+                                </RunLog>
+                                <VersionFields/>
+                            </Version>
+                        </Script>
+                    </Iteration>
+                    <Iteration/>
+                    <Iteration/>
+                    <Iteration/>
+                    <Iteration/>
+                    <Iteration/>
+                    <Iteration/>
+                    <Iteration Time="1649790440200" number="18">
+                        <Script Duration="10875" Time="1649790440200" class="com.corebanking.testmanager.t24.http.api.VERSION" name="com.corebanking.testmanager.t24.http.api.VERSION" scriptExecution="PASSED" user="WATUNCAR1" usergroup="TEST_QA">
+                            <Version Duration="10297" Time="1649790440216" comment="" mode="I" name="CUSTOMER_INPUT.BRANCH.PE" version="CUSTOMER,INPUT.BRANCH.PE">
+                                <RunLog>
+                                    <INFO/>
+                                    <SENT/>
+                                    <RECEIVED/>
+                                    <TransactionID/>
+                                    <SET_FIELDS/>
+                                    <SENT/>
+                                    <RECEIVED/>
+                                    <Testcase/>
+                                    <INFO Duration="3985" Status="12" Text="Committing ..." Time="1649790446528" User="1" UserGroup="UserGroup">
+                                        <INFO/>
+                                        <SENT/>
+                                        <RECEIVED/>
+                                        <Testcase Reason="" Status="2" Text="Error message: [] - EL CLIENTE YA EXISTE 4815201 (Override ID - DUP.CONTRACT)" Time="1649790449809"/>
+                                        <Testcase Reason="EL CLIENTE YA EXISTE 4815201 (Override ID - DUP.CONTRACT)" Status="1" Text="TXN FAILED" Time="1649790450247"/>
+                                        <Testcase Reason="Expected PASS" Status="1" Text="Commit failed" Time="1649790450247"/>
+                                        <INFO/>
+                                        <SENT/>
+                                        <RECEIVED/>
+                                    </INFO>
+                                    <INFO/>
+                                    <SENT/>
+                                    <RECEIVED/>
+                                </RunLog>
+                                <VersionFields/>
+                            </Version>
+                        </Script>
+                    </Iteration>
+                    <Iteration/>
+                    <Iteration/>
+                </Outputs>
+            </Sequence>
+        </Day>
+    </ExecutionLog>
+</Root>

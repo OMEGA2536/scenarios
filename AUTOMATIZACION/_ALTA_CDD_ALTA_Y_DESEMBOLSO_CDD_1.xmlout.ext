@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root OsUserName="MSI" appVer="TestStudio_3.0.0.202008111248">
+    <ExecutionLog comment="[ALTA_CDD] ALTA Y DESEMBOLSO_CDD" status="New" topLevel="true">
+        <Day phase="" seqId="1,2" value="1">
+            <Sequence/>
+            <Sequence/>
+            <Sequence Duration="55561" Time="1658811913283" comment="" number="3" seqid="6" type="Test" user="JSILUPUA" usergroup="ASESOR">
+                <Inputs/>
+                <Outputs Time="1658811913283">
+                    <Script Duration="54955" Time="1658811913587" class="com.corebanking.t24.http.VERSIONAA" name="com.corebanking.t24.http.VERSIONAA" scriptExecution="PASSED" user="JSILUPUA" usergroup="ASESOR">
+                        <Version comment="" mode="I" name="LD011002" version="LD011002">
+                            <RunLog>
+                                <INFO/>
+                                <TransactionID/>
+                                <SET_FIELDS/>
+                                <SENT/>
+                                <RECEIVED/>
+                                <INFO/>
+                                <SET_FIELD/>
+                                <SET_FIELD/>
+                                <SET_FIELD/>
+                                <SET_FIELD/>
+                                <SET_FIELD/>
+                                <SENT/>
+                                <RECEIVED/>
+                                <INFO Duration="30329" Status="12" Text="Committing ..." Time="1658811938200" User="1" UserGroup="UserGroup">
+                                    <INFO/>
+                                    <SENT/>
+                                    <RECEIVED/>
+                                    <Testcase/>
+                                    <Testcase Reason="[#text: Cronograma - START.DATE.2.1]: [#text: CANNOT BE LESS THAN RECORD DATE]" Status="1" Text="TXN FAILED" Time="1658811968236"/>
+                                    <Testcase Reason="Expected PASS" Status="1" Text="Commit failed" Time="1658811968236"/>
+                                    <SENT/>
+                                    <RECEIVED/>
+                                </INFO>
+                            </RunLog>
+                            <AAVersionFields/>
+                        </Version>
+                    </Script>
+                </Outputs>
+            </Sequence>
+            <Sequence/>
+            <Sequence/>
+            <Sequence/>
+            <Sequence/>
+            <Sequence/>
+            <Sequence/>
+        </Day>
+    </ExecutionLog>
+</Root>
