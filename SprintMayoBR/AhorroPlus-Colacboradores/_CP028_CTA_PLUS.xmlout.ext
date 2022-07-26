@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root OsUserName="MSI" appVer="TestStudio_3.0.0.202008111248">
+    <ExecutionLog comment="[CP028_CTA PLUS COLABORADOR] ABONOS MENORES A 1000" status="New" topLevel="true">
+        <Day phase="" seqId="1,2" value="1">
+            <Sequence/>
+            <Sequence Duration="1120" Time="1658813793734" comment="" number="2" seqid="6" type="Test" user="TESTCAJERO1" usergroup="CAJERO">
+                <Inputs/>
+                <Outputs Time="1658813793734">
+                    <Script Duration="1008" Time="1658813793803" class="com.corebanking.testmanager.t24.http.api.VERSION" name="com.corebanking.testmanager.t24.http.api.VERSION" user="TESTCAJERO1" usergroup="CAJERO">
+                        <Version Duration="306" Time="1658813793820" comment="" mode="I" name="TELLER_LCY.CASHIN" version="TELLER,LCY.CASHIN">
+                            <RunLog>
+                                <INFO/>
+                                <Testcase Reason="" Status="0" Text="2.Version screen not found when expecting one! Maybe not a version was opened from the enquiry!" Time="1658813793822"/>
+                                <SET_FIELDS Status="12" Text="SET_FIELDS" Time="1658813793823" User="1" UserGroup="UserGroup">
+                                    <SET_FIELDS Status="12" Text="TELLER,LCY.CASHIN" Time="1658813793823" User="1" UserGroup="UserGroup">
+                                        <SET_FIELD OriginalValue="" Status="12" Text="ACCOUNT.2" Time="1658813793826" User="1" UserGroup="UserGroup" Value="1009961228">
+                                            <Testcase Reason="ACCOUNT.2" Status="0" Text="Field could not be found in the server's response." Time="1658813793826"/>
+                                        </SET_FIELD>
+                                        <SET_FIELD OriginalValue="" Status="12" Text="AMOUNT.LOCAL.1.1" Time="1658813793829" User="1" UserGroup="UserGroup" Value="100">
+                                            <Testcase Reason="AMOUNT.LOCAL.1" Status="0" Text="Field could not be found in the server's response." Time="1658813793829"/>
+                                        </SET_FIELD>
+                                    </SET_FIELDS>
+                                </SET_FIELDS>
+                                <SENT/>
+                                <RECEIVED/>
+                                <SENT/>
+                                <RECEIVED/>
+                            </RunLog>
+                        </Version>
+                        <Testcase Reason="" Status="1" Text="Script stopped. (Received Security violation. User logged out... )!" Time="1658813794810"/>
+                        <INFO/>
+                    </Script>
+                </Outputs>
+            </Sequence>
+            <Sequence/>
+            <Sequence/>
+            <Sequence/>
+            <Sequence/>
+            <Sequence/>
+            <Sequence/>
+            <Sequence/>
+            <Sequence/>
+        </Day>
+    </ExecutionLog>
+</Root>

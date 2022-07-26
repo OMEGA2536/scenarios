@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root OsUserName="IT DATA" appVer="TestStudio_3.0.0.202110301919">
+    <ExecutionLog comment="[RetCta] RetiroCta" status="New" topLevel="true">
+        <Day phase="" seqId="1,2" value="1">
+            <Sequence/>
+            <Sequence Duration="4375" Time="1649177054395" comment="" number="2" seqid="4" type="Test" user="GTORRESC" usergroup="OP_CAJERO">
+                <Inputs/>
+                <Outputs Time="1649177054395">
+                    <Script Duration="3501" Time="1649177054848" class="com.corebanking.t24.http.COS" name="com.corebanking.t24.http.COS" scriptExecution="PASSED" user="GTORRESC" usergroup="OP_CAJERO">
+                        <INFO/>
+                        <INFO/>
+                        <INFO/>
+                        <SENT/>
+                        <RECEIVED/>
+                        <Data/>
+                        <SelectionResult/>
+                        <Testcase Reason="xpathFilter=.//Row[(Field[@Name='ID de Arreglo' and (normalize-space(@Value) = normalize-space('AA220710YR64') )]) and (Field[@Name='Número Cuenta' and (normalize-space(@Value) = normalize-space('1009569894') or normalize-space(@Value) = normalize-space('1009569894'))]) and (Field[@Name='Descripción' and (normalize-space(@Value) = normalize-space('CUENTA SIMPLE') )]) and (Field[@Name='Customer #' and (normalize-space(@Value) = normalize-space('4739073') or normalize-space(@Value) = normalize-space('4739073'))]) and (Field[@Name='Nombre de Cliente' and (normalize-space(@Value) = normalize-space('Name1 4739073') )]) and (Field[@Name='Estado' and (normalize-space(@Value) = normalize-space('Authorised') )])]" Status="2" Text="Expected one or more rows. Enquiry returned no result." Time="1649177058005"/>
+                        <Testcase Reason="" Status="1" Text="Could not execute popup menu!" Time="1649177058005"/>
+                        <SENT/>
+                        <RECEIVED/>
+                    </Script>
+                </Outputs>
+            </Sequence>
+            <Sequence/>
+            <Sequence/>
+            <Sequence/>
+        </Day>
+    </ExecutionLog>
+</Root>

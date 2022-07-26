@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root OsUserName="IT DATA" appVer="TestStudio_3.0.0.202110301919">
+    <ExecutionLog comment="[CP222_P SENIOR] ALTA DE PRESTAMO SENIOR S/500 - 1 CUOTA" status="New" topLevel="true">
+        <Day phase="" seqId="1,2" value="1">
+            <Sequence/>
+            <Sequence/>
+            <Sequence Duration="4028" Time="1652740661403" comment="" number="3" seqid="6" type="Test" user="lsanchezm1" usergroup="DEFAULT_INPUT_USER">
+                <Inputs/>
+                <Outputs Time="1652740661403">
+                    <Script Duration="3217" Time="1652740661860" class="com.corebanking.t24.http.VERSIONAA" name="com.corebanking.t24.http.VERSIONAA" scriptExecution="PASSED" user="lsanchezm1" usergroup="DEFAULT_INPUT_USER">
+                        <Version comment="" mode="I" name="LD011006" version="LD011006">
+                            <RunLog>
+                                <EXCEPTION Status="12" Text="java.lang.NullPointerException" Time="1652740664797" User="1" UserGroup="UserGroup">
+                                    <Testcase Reason="" Status="1" Text="java.lang.NullPointerException" Time="1652740664797"/>
+                                    <INFO_IGNORE/>
+                                    <INFO_IGNORE/>
+                                    <INFO_IGNORE/>
+                                    <INFO_IGNORE/>
+                                    <INFO_IGNORE/>
+                                    <INFO_IGNORE/>
+                                </EXCEPTION>
+                                <SENT/>
+                                <RECEIVED/>
+                            </RunLog>
+                        </Version>
+                        <EXCEPTION Status="12" Text="com.corebanking.testmanager.t24.api.GlobusException: java.lang.NullPointerException" Time="1652740665073" User="1" UserGroup="UserGroup">
+                            <Testcase Reason="java.lang.NullPointerException" Status="1" Text="com.corebanking.testmanager.t24.api.GlobusException: java.lang.NullPointerException" Time="1652740665074"/>
+                            <INFO_IGNORE/>
+                            <INFO_IGNORE/>
+                            <INFO_IGNORE/>
+                            <INFO_IGNORE/>
+                            <INFO_IGNORE/>
+                            <INFO_IGNORE/>
+                        </EXCEPTION>
+                    </Script>
+                </Outputs>
+            </Sequence>
+        </Day>
+    </ExecutionLog>
+</Root>
