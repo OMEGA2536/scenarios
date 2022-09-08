@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root OsUserName="walte" appVer="TestStudio_3.0.0.202206080439">
+    <ExecutionLog comment="Crear Cliente Natural" status="New" topLevel="true">
+        <Parameters/>
+        <Day phase="" seqId="1,2" value="1">
+            <Sequence Duration="40854" Time="1662519843486" comment="Crear cliente individual" number="1" seqid="3" type="Test" user="WATUNCAR1" usergroup="TEST_QA">
+                <Inputs>
+                    <InputMessage blockType="T24Version" class="com.corebanking.testmanager.t24.http.api.VERSION" condition="true">
+                        <FieldValues Authorize="" Commit="PASS" Mode="I" MultiVersion="true" Override="-1" UniqueVerName="CUSTOMER_3" Verify="true" bpUsergroup="TEST_QA" onFailure="Drop" reopenMode="S" usergroup="TEST_QA" version="CUSTOMER,INPUT.BRANCH.PE">
+                            <FieldValues subVersion="true" subVersionTitle="" version="CUSTOMER,INPUT.BRANCH.PE">
+                                <SEARCH_ID Expected="#IGNORE()" OriginalExpected="#DPP('Person2','#USED','IDClient')" OriginalPostAction="#DPP('Person2','#USED','IDClient')" PostAction="Failed" Type="I" Valid="V" Value="">
+                                    <INFO_IGNORE/>
+                                    <Testcase Reason="Either no datapool iteration, or no #NEXT preceded this #USED." Status="0" Text="No selected row in datapool 'Person2'" Time="1662519883595"/>
+                                    <INFO_IGNORE/>
+                                </SEARCH_ID>
+                                <LEGAL.DOC.NAME/>
+                                <SECTOR/>
+                                <NAME.1.1 Expected="#DP('Person2','#USED','NAME.1.1')" Type="I" Valid="V" Value="#DP('Person2','#USED','NAME.1.1')" fieldDescriptor="Primer Nombre" fieldType="" fldNo="NAME.1" hot="" hotVal="" postfix=":1" required="" tabDescriptor="Cliente" validateAfter="">
+                                    <Testcase Reason="" Status="0" Text="No previous item in datapool 'Person2'" Time="1662519844238"/>
+                                    <Testcase Reason="" Status="0" Text="Failed to resolve Expected=#DP('Person2','#USED','NAME.1.1')" Time="1662519883648"/>
+                                    <Testcase Reason="" Status="0" Text="Failed to resolve Value=#DP('Person2','#USED','NAME.1.1')" Time="1662519883654"/>
+                                </NAME.1.1>
+                                <STREET.1 Expected="#DP('Person2','#USED','STREET.1')" Type="I" Valid="V" Value="#DP('Person2','#USED','STREET.1')" fieldDescriptor="Ubigeo Personal" fieldType="" fldNo="STREET" hot="" hotVal="" postfix=":1" required="" tabDescriptor="Cliente" validateAfter="">
+                                    <Testcase Reason="" Status="0" Text="No previous item in datapool 'Person2'" Time="1662519844256"/>
+                                    <Testcase Reason="" Status="0" Text="Failed to resolve Expected=#DP('Person2','#USED','STREET.1')" Time="1662519883666"/>
+                                    <Testcase Reason="" Status="0" Text="Failed to resolve Value=#DP('Person2','#USED','STREET.1')" Time="1662519883669"/>
+                                </STREET.1>
+                                <ADDRESS/>
+                                <GENDER Expected="#DP('Person2','#USED','GENDER')" Type="I" Valid="V" Value="#DP('Person2','#USED','GENDER')" fieldDescriptor="Género" fieldType="" fldNo="GENDER" hot="" hotVal="" postfix="" required="" tabDescriptor="Cliente" validateAfter="">
+                                    <Testcase Reason="" Status="0" Text="No previous item in datapool 'Person2'" Time="1662519844318"/>
+                                    <Testcase Reason="" Status="0" Text="Failed to resolve Expected=#DP('Person2','#USED','GENDER')" Time="1662519883703"/>
+                                    <Testcase Reason="" Status="0" Text="Failed to resolve Value=#DP('Person2','#USED','GENDER')" Time="1662519883709"/>
+                                </GENDER>
+                                <NATIONALITY Expected="#DP('Person2','#USED','NATIONALITY')" Type="I" Valid="V" Value="#DP('Person2','#USED','NATIONALITY')" fieldDescriptor="Nacionalidad" fieldType="" fldNo="NATIONALITY" hot="" hotVal="" postfix="" required="" tabDescriptor="Cliente" validateAfter="">
+                                    <Testcase Reason="" Status="0" Text="No previous item in datapool 'Person2'" Time="1662519844335"/>
+                                    <Testcase Reason="" Status="0" Text="Failed to resolve Expected=#DP('Person2','#USED','NATIONALITY')" Time="1662519884193"/>
+                                    <Testcase Reason="" Status="0" Text="Failed to resolve Value=#DP('Person2','#USED','NATIONALITY')" Time="1662519884197"/>
+                                </NATIONALITY>
+                                <DATE.OF.BIRTH Expected="#DP('Person2','#USED','DATE.OF.BIRTH')" Type="I" Valid="V" Value="#DP('Person2','#USED','DATE.OF.BIRTH')" fieldDescriptor="Fecha de Nacimiento" fieldType="" fldNo="DATE.OF.BIRTH" hot="" hotVal="" postfix="" required="" tabDescriptor="Cliente" validateAfter="">
+                                    <Testcase Reason="" Status="0" Text="No previous item in datapool 'Person2'" Time="1662519844352"/>
+                                    <Testcase Reason="" Status="0" Text="Failed to resolve Expected=#DP('Person2','#USED','DATE.OF.BIRTH')" Time="1662519884204"/>
+                                    <Testcase Reason="" Status="0" Text="Failed to resolve Value=#DP('Person2','#USED','DATE.OF.BIRTH')" Time="1662519884207"/>
+                                </DATE.OF.BIRTH>
+                                <CONFID.TXT/>
+                                <PHONE.1 append="false" multivalue="yes" toBeDeletedFirst="">
+                                    <item>
+                                        <PHONE.1/>
+                                        <SMS.1 Expected="#DP('Person2','#USED','SMS.1')" Type="I" Valid="V" Value="#DP('Person2','#USED','SMS.1')" fieldDescriptor="Celular" fieldType="" fldNo="SMS.1" hot="" hotVal="" postfix=":1" required="" tabDescriptor="Cliente" validateAfter="">
+                                            <Testcase Reason="" Status="0" Text="No previous item in datapool 'Person2'" Time="1662519844465"/>
+                                            <Testcase Reason="" Status="0" Text="Failed to resolve Expected=#DP('Person2','#USED','SMS.1')" Time="1662519884231"/>
+                                            <Testcase Reason="" Status="0" Text="Failed to resolve Value=#DP('Person2','#USED','SMS.1')" Time="1662519884234"/>
+                                        </SMS.1>
+                                        <EMAIL.1 Expected="#DP('Person2','#USED','EMAIL.1')" Type="I" Valid="V" Value="#DP('Person2','#USED','EMAIL.1')" fieldDescriptor="Correo Electrónico" fieldType="" fldNo="EMAIL.1" hot="" hotVal="" postfix=":1" required="" tabDescriptor="Cliente" validateAfter="">
+                                            <Testcase Reason="" Status="0" Text="No previous item in datapool 'Person2'" Time="1662519844540"/>
+                                            <Testcase Reason="" Status="0" Text="Failed to resolve Expected=#DP('Person2','#USED','EMAIL.1')" Time="1662519884238"/>
+                                            <Testcase Reason="" Status="0" Text="Failed to resolve Value=#DP('Person2','#USED','EMAIL.1')" Time="1662519884240"/>
+                                        </EMAIL.1>
+                                    </item>
+                                </PHONE.1>
+                                <MNEMONIC/>
+                                <EMPLOYMENT.STATUS append="false" multivalue="yes" toBeDeletedFirst="">
+                                    <item>
+                                        <EMPLOYMENT.STATUS Expected="#DP('Person2','#USED','EMPLOYMENT.STATUS')" Type="I" Valid="V" Value="#DP('Person2','#USED','EMPLOYMENT.STATUS')" fieldDescriptor="Tipo de Ocupación" fieldType="" fldNo="EMPLOYMENT.STATUS" hot="" hotVal="" postfix=":1" required="" tabDescriptor="Cliente" validateAfter="">
+                                            <Testcase Reason="" Status="0" Text="No previous item in datapool 'Person2'" Time="1662519844680"/>
+                                            <Testcase Reason="" Status="0" Text="Failed to resolve Expected=#DP('Person2','#USED','EMPLOYMENT.STATUS')" Time="1662519884258"/>
+                                            <Testcase Reason="" Status="0" Text="Failed to resolve Value=#DP('Person2','#USED','EMPLOYMENT.STATUS')" Time="1662519884259"/>
+                                        </EMPLOYMENT.STATUS>
+                                        <EMPLOYERS.NAME Expected="#DP('Person2','#USED','EMPLOYERS.NAME')" Type="I" Valid="V" Value="#DP('Person2','#USED','EMPLOYERS.NAME')" fieldDescriptor="Nombre de la Empresa" fieldType="" fldNo="EMPLOYERS.NAME" hot="" hotVal="" postfix=":1" required="" tabDescriptor="Cliente" validateAfter="">
+                                            <Testcase Reason="" Status="0" Text="No previous item in datapool 'Person2'" Time="1662519844755"/>
+                                            <Testcase Reason="" Status="0" Text="Failed to resolve Expected=#DP('Person2','#USED','EMPLOYERS.NAME')" Time="1662519884265"/>
+                                            <Testcase Reason="" Status="0" Text="Failed to resolve Value=#DP('Person2','#USED','EMPLOYERS.NAME')" Time="1662519884267"/>
+                                        </EMPLOYERS.NAME>
+                                        <EMPLOYERS.ADD/>
+                                    </item>
+                                </EMPLOYMENT.STATUS>
+                                <OCCUPATION.1 Expected="#DP('Person2','#USED','OCCUPATION.1')" Type="I" Valid="V" Value="#DP('Person2','#USED','OCCUPATION.1')" fieldDescriptor="Profesión" fieldType="" fldNo="OCCUPATION" hot="" hotVal="" postfix=":1" required="" tabDescriptor="Cliente" validateAfter="">
+                                    <Testcase Reason="" Status="0" Text="No previous item in datapool 'Person2'" Time="1662519844828"/>
+                                    <Testcase Reason="" Status="0" Text="Failed to resolve Expected=#DP('Person2','#USED','OCCUPATION.1')" Time="1662519884284"/>
+                                    <Testcase Reason="" Status="0" Text="Failed to resolve Value=#DP('Person2','#USED','OCCUPATION.1')" Time="1662519884286"/>
+                                </OCCUPATION.1>
+                                <FAMILY.NAME Expected="#DP('Person2','#USED','FAMILY.NAME')" Type="I" Valid="V" Value="#DP('Person2','#USED','FAMILY.NAME')" fieldDescriptor="Apellido Paterno" fieldType="" fldNo="FAMILY.NAME" hot="" hotVal="" postfix="" required="" tabDescriptor="Cliente" validateAfter="">
+                                    <Testcase Reason="" Status="0" Text="No previous item in datapool 'Person2'" Time="1662519844858"/>
+                                    <Testcase Reason="" Status="0" Text="Failed to resolve Expected=#DP('Person2','#USED','FAMILY.NAME')" Time="1662519884292"/>
+                                    <Testcase Reason="" Status="0" Text="Failed to resolve Value=#DP('Person2','#USED','FAMILY.NAME')" Time="1662519884294"/>
+                                </FAMILY.NAME>
+                                <NAME.2.1 Expected="#DP('Person2','#USED','NAME.2.1')" Type="I" Valid="V" Value="#DP('Person2','#USED','NAME.2.1')" fieldDescriptor="Apellido Materno" fieldType="" fldNo="NAME.2" hot="" hotVal="" postfix=":1" required="" tabDescriptor="Cliente" validateAfter="">
+                                    <Testcase Reason="" Status="0" Text="No previous item in datapool 'Person2'" Time="1662519844911"/>
+                                    <Testcase Reason="" Status="0" Text="Failed to resolve Expected=#DP('Person2','#USED','NAME.2.1')" Time="1662519884300"/>
+                                    <Testcase Reason="" Status="0" Text="Failed to resolve Value=#DP('Person2','#USED','NAME.2.1')" Time="1662519884302"/>
+                                </NAME.2.1>
+                                <SHORT.NAME.1 Expected="#DP('Person2','#USED','SHORT.NAME.1')" Type="I" Valid="V" Value="#DP('Person2','#USED','SHORT.NAME.1')" fieldDescriptor="Nombre completo" fieldType="" fldNo="SHORT.NAME" hot="" hotVal="" postfix=":1" required="" tabDescriptor="Cliente" validateAfter="">
+                                    <Testcase Reason="" Status="0" Text="No previous item in datapool 'Person2'" Time="1662519845145"/>
+                                    <Testcase Reason="" Status="0" Text="Failed to resolve Expected=#DP('Person2','#USED','SHORT.NAME.1')" Time="1662519884313"/>
+                                    <Testcase Reason="" Status="0" Text="Failed to resolve Value=#DP('Person2','#USED','SHORT.NAME.1')" Time="1662519884317"/>
+                                </SHORT.NAME.1>
+                            </FieldValues>
+                        </FieldValues>
+                    </InputMessage>
+                </Inputs>
+                <Outputs Time="1662519843486">
+                    <Script Duration="38414" Time="1662519845150" class="com.corebanking.testmanager.t24.http.api.VERSION" name="com.corebanking.testmanager.t24.http.api.VERSION" scriptExecution="PASSED" user="WATUNCAR1" usergroup="TEST_QA">
+                        <Version Duration="17813" Time="1662519865380" comment="" mode="I" name="CUSTOMER_INPUT.BRANCH.PE" version="CUSTOMER,INPUT.BRANCH.PE">
+                            <RunLog>
+                                <INFO/>
+                                <SENT/>
+                                <RECEIVED/>
+                                <TransactionID/>
+                                <SET_FIELDS Status="12" Text="SET_FIELDS" Time="1662519869194" User="1" UserGroup="UserGroup">
+                                    <SET_FIELDS Status="12" Text="CUSTOMER,INPUT.BRANCH.PE" Time="1662519869195" User="1" UserGroup="UserGroup">
+                                        <SET_FIELD/>
+                                        <SET_FIELD/>
+                                        <SENT/>
+                                        <RECEIVED/>
+                                        <SET_FIELD/>
+                                        <SET_FIELD/>
+                                        <SET_FIELD/>
+                                        <SET_FIELD OriginalValue="" Status="12" Text="GENDER" Time="1662519873633" User="1" UserGroup="UserGroup" Value="#DP('Person2','#USED','GENDER')">
+                                            <Testcase Reason="" Status="2" Text="Attempting to set value ('#DP('Person2','#USED','GENDER')') which was not present in the choice list." Time="1662519873633"/>
+                                        </SET_FIELD>
+                                        <SET_FIELD/>
+                                        <SET_FIELD/>
+                                        <SET_FIELD/>
+                                        <SET_FIELD/>
+                                        <SET_FIELD/>
+                                        <SET_FIELD/>
+                                        <SET_FIELD/>
+                                        <SET_FIELD OriginalValue="" Status="12" Text="EMPLOYMENT.STATUS (1)" Time="1662519873679" User="1" UserGroup="UserGroup" Value="#DP('Person2','#USED','EMPLOYMENT.STATUS')">
+                                            <Testcase Reason="" Status="2" Text="Attempting to set value ('#DP('Person2','#USED','EMPLOYMENT.STATUS')') which was not present in the choice list." Time="1662519873680"/>
+                                        </SET_FIELD>
+                                        <SET_FIELD/>
+                                        <SET_FIELD/>
+                                        <SET_FIELD/>
+                                        <SET_FIELD/>
+                                        <SET_FIELD/>
+                                        <SET_FIELD/>
+                                    </SET_FIELDS>
+                                </SET_FIELDS>
+                                <SENT/>
+                                <RECEIVED/>
+                                <Testcase/>
+                                <Testcase/>
+                                <Testcase/>
+                                <Testcase/>
+                                <Testcase/>
+                                <Testcase/>
+                                <Testcase/>
+                                <Testcase/>
+                                <Testcase/>
+                                <Testcase/>
+                                <Testcase/>
+                                <INFO Duration="5025" Status="12" Text="Committing ..." Time="1662519878164" User="1" UserGroup="UserGroup">
+                                    <INFO/>
+                                    <SENT/>
+                                    <RECEIVED/>
+                                    <Testcase Reason="" Status="2" Text="Error message: Apellido Paterno - CARACTER INVALIDO" Time="1662519882455"/>
+                                    <Testcase Reason="" Status="2" Text="Error message: Apellido Materno - CARACTER INVALIDO" Time="1662519882455"/>
+                                    <Testcase Reason="" Status="2" Text="Error message: Primer Nombre - CARACTER INVALIDO" Time="1662519882456"/>
+                                    <Testcase Reason="" Status="2" Text="Error message: Nombre completo - TOO MANY CHARACTERS" Time="1662519882456"/>
+                                    <Testcase Reason="" Status="2" Text="Error message: Género - INPUT MISSING" Time="1662519882456"/>
+                                    <Testcase Reason="" Status="2" Text="Error message: Nacionalidad - TOO MANY CHARACTERS" Time="1662519882456"/>
+                                    <Testcase Reason="" Status="2" Text="Error message: Fecha de Nacimiento - NOT NUMERIC DATE CHAR." Time="1662519882456"/>
+                                    <Testcase Reason="" Status="2" Text="Error message: Profesión - CARACTER INVALIDO" Time="1662519882456"/>
+                                    <Testcase Reason="" Status="2" Text="Error message: Ubigeo Personal - CARACTER INVALIDO" Time="1662519882456"/>
+                                    <Testcase Reason="" Status="2" Text="Error message: Celular.1 - TOO MANY CHARACTERS" Time="1662519882456"/>
+                                    <Testcase Reason="" Status="2" Text="Error message: Nombre de la Empresa.1 - CARACTER INVALIDO" Time="1662519882456"/>
+                                    <Testcase Reason="Apellido Paterno: CARACTER INVALIDO&#xd;&#xa;Apellido Materno: CARACTER INVALIDO&#xd;&#xa;Primer Nombre: CARACTER INVALIDO&#xd;&#xa;Nombre completo: TOO MANY CHARACTERS&#xd;&#xa;Género: INPUT MISSING&#xd;&#xa;Nacionalidad: TOO MANY CHARACTERS&#xd;&#xa;Fecha de Nacimiento: NOT NUMERIC DATE CHAR.&#xd;&#xa;Profesión: CARACTER INVALIDO&#xd;&#xa;Ubigeo Personal: CARACTER INVALIDO&#xd;&#xa;Celular.1: TOO MANY CHARACTERS&#xd;&#xa;Nombre de la Empresa.1: CARACTER INVALIDO" Status="1" Text="TXN FAILED" Time="1662519882836"/>
+                                    <Testcase Reason="Expected PASS" Status="1" Text="Commit failed" Time="1662519882840"/>
+                                    <INFO/>
+                                    <SENT/>
+                                    <RECEIVED/>
+                                </INFO>
+                                <INFO/>
+                                <SENT/>
+                                <RECEIVED/>
+                            </RunLog>
+                            <VersionFields/>
+                        </Version>
+                    </Script>
+                </Outputs>
+            </Sequence>
+        </Day>
+    </ExecutionLog>
+</Root>

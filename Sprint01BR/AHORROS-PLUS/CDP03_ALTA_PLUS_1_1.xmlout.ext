@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root OsUserName="walte" appVer="TestStudio_3.0.0.202206080439">
+    <ExecutionLog comment="" status="New" topLevel="true">
+        <Day phase="" seqId="1,2" value="1">
+            <Sequence Duration="29577" Time="1660671861275" comment="[CP003_CTA PLUS CTE] ALTA DE CUENTA DE AHORROS PLUS CLIENTE" number="1" seqid="4" type="Test">
+                <Inputs>
+                    <InputMessage blockType="Call" condition="true">
+                        <Call UniqueCallName="pack__CP003_CTA_PLUS_CTE_ALTA_DE_CUENTA_DE_AHORROS_PLUS_CLIENTE_1_4" callee="SprintMayoBR.AhorroPlus.pack__CP003_CTA_PLUS_CTE_ALTA_DE_CUENTA_DE_AHORROS_PLUS_CLIENTE_1">
+                            <Param mandatory="true" name="CUSTOMER.ROLE.2_6" seqId="CUSTOMER.ROLE.2_6" value="#DP('dp_Cuenta','#USED','idRole')">
+                                <Testcase Reason="" Status="0" Text="No previous item in datapool 'dp_Cuenta'" Time="1660671861325"/>
+                                <Testcase Reason="" Status="0" Text="Failed to resolve value=#DP('dp_Cuenta','#USED','idRole')" Time="1660671890127"/>
+                            </Param>
+                            <Param mandatory="true" name="CURRENCY_6" seqId="CURRENCY_6" value="#DP('dp_Cuenta','#USED','idCurrency')">
+                                <Testcase Reason="" Status="0" Text="No previous item in datapool 'dp_Cuenta'" Time="1660671861366"/>
+                                <Testcase Reason="" Status="0" Text="Failed to resolve value=#DP('dp_Cuenta','#USED','idCurrency')" Time="1660671890842"/>
+                            </Param>
+                            <Param/>
+                            <Param mandatory="true" name="CUSTOMER.1_6" seqId="CUSTOMER.1_6" value="#DP('dp_Cuenta','#USED','idCliente')">
+                                <Testcase Reason="" Status="0" Text="No previous item in datapool 'dp_Cuenta'" Time="1660671861399"/>
+                                <Testcase Reason="" Status="0" Text="Failed to resolve value=#DP('dp_Cuenta','#USED','idCliente')" Time="1660671890849"/>
+                            </Param>
+                        </Call>
+                    </InputMessage>
+                </Inputs>
+                <Outputs Time="1660671861275">
+                    <Script Duration="28706" Time="1660671861401" class="com.corebanking.testmanager.core.api.XmlCallScript" name="com.corebanking.testmanager.core.api.XmlCallScript" scriptExecution="PASSED">
+                        <Call Status="12" Text="call details" Time="1660671861410" UniqueCallName="pack__CP003_CTA_PLUS_CTE_ALTA_DE_CUENTA_DE_AHORROS_PLUS_CLIENTE_1_4" User="1" UserGroup="UserGroup" callee="SprintMayoBR.AhorroPlus.pack__CP003_CTA_PLUS_CTE_ALTA_DE_CUENTA_DE_AHORROS_PLUS_CLIENTE_1" xmloutFile=".CDP03_ALTA_PLUS_1_1/pack__CP003_CTA_PLUS_CTE_ALTA_DE_CUENTA_DE_AHORROS_PLUS_CLIENTE_1_4/pack__CP003_CTA_PLUS_CTE_ALTA_DE_CUENTA_DE_AHORROS_PLUS_CLIENTE_1_4.xmlout">
+                            <Parameters/>
+                            <Result blockersCount="2" firstErrorMessage="TXN FAILED">
+                                <Sequence/>
+                                <Sequence/>
+                                <Sequence Duration="9604" Time="1660671880232" comment="" number="3" seqid="6" type="Test">
+                                    <Inputs/>
+                                    <Outputs Time="1660671880232">
+                                        <Iteration Time="1660671889483" number="1">
+                                            <Script Duration="8373" Time="1660671881110" class="com.corebanking.t24.http.VERSIONAA" name="com.corebanking.t24.http.VERSIONAA" scriptExecution="PASSED" user="JSILUPUA" usergroup="ASESOR">
+                                                <Version comment="" mode="I" name="AC001002" version="AC001002">
+                                                    <RunLog>
+                                                        <INFO/>
+                                                        <TransactionID/>
+                                                        <SET_FIELDS/>
+                                                        <SENT/>
+                                                        <RECEIVED/>
+                                                        <Testcase/>
+                                                        <INFO/>
+                                                        <SET_FIELDS/>
+                                                        <SENT/>
+                                                        <RECEIVED/>
+                                                        <Testcase/>
+                                                        <INFO Duration="3696" Status="12" Text="Committing ..." Time="1660671885771" User="1" UserGroup="UserGroup">
+                                                            <INFO/>
+                                                            <SENT/>
+                                                            <RECEIVED/>
+                                                            <Testcase/>
+                                                            <Testcase Reason="Moneda: MANDATORY INPUT FOR NEW ARRANGEMENT" Status="1" Text="TXN FAILED" Time="1660671889462"/>
+                                                            <Testcase Reason="Expected PASS" Status="1" Text="Commit failed" Time="1660671889465"/>
+                                                            <INFO/>
+                                                        </INFO>
+                                                    </RunLog>
+                                                    <VersionFields/>
+                                                </Version>
+                                            </Script>
+                                        </Iteration>
+                                    </Outputs>
+                                </Sequence>
+                            </Result>
+                        </Call>
+                    </Script>
+                </Outputs>
+            </Sequence>
+        </Day>
+    </ExecutionLog>
+</Root>

@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Root OsUserName="MSI" appVer="TestStudio_3.0.0.202008111248">
+<Root OsUserName="walte" appVer="TestStudio_3.0.0.202206080439">
     <ExecutionLog comment="[CP042_CTA SIMPLE DOLARES] RETIRO DE CTA SIMPLE DOLARES MAYOR A $1000" status="New" topLevel="true">
         <Day phase="" seqId="1,2" value="1">
             <Sequence/>
-            <Sequence Duration="926" Time="1658815481405" comment="" number="2" seqid="6" type="Test" user="TESTCAJERO1" usergroup="CAJERO">
+            <Sequence Duration="1208" Time="1658956086691" comment="" number="2" seqid="6" type="Test" user="TESTCAJERO1" usergroup="CAJERO">
                 <Inputs/>
-                <Outputs Time="1658815481405">
-                    <Script Duration="821" Time="1658815481478" class="com.corebanking.testmanager.t24.http.api.VERSION" name="com.corebanking.testmanager.t24.http.api.VERSION" user="TESTCAJERO1" usergroup="CAJERO">
-                        <Version Duration="328" Time="1658815481495" comment="" mode="I" name="TELLER_BRIP.FCY.CASHCHQ.CARD" version="TELLER,BRIP.FCY.CASHCHQ.CARD">
+                <Outputs Time="1658956086691">
+                    <Script Duration="827" Time="1658956087001" class="com.corebanking.testmanager.t24.http.api.VERSION" name="com.corebanking.testmanager.t24.http.api.VERSION" scriptExecution="FAILED" user="TESTCAJERO1" usergroup="CAJERO">
+                        <Version Duration="387" Time="1658956087052" comment="" mode="I" name="TELLER_BRIP.FCY.CASHCHQ.CARD" version="TELLER,BRIP.FCY.CASHCHQ.CARD">
                             <RunLog>
                                 <INFO/>
-                                <Testcase Reason="" Status="0" Text="2.Version screen not found when expecting one! Maybe not a version was opened from the enquiry!" Time="1658815481498"/>
-                                <SET_FIELDS Status="12" Text="SET_FIELDS" Time="1658815481499" User="1" UserGroup="UserGroup">
-                                    <SET_FIELDS Status="12" Text="TELLER,BRIP.FCY.CASHCHQ.CARD" Time="1658815481500" User="1" UserGroup="UserGroup">
-                                        <SET_FIELD OriginalValue="" Status="12" Text="AMOUNT.FCY.1.1" Time="1658815481503" User="1" UserGroup="UserGroup" Value="1800">
-                                            <Testcase Reason="AMOUNT.FCY.1" Status="0" Text="Field could not be found in the server's response." Time="1658815481503"/>
+                                <Testcase Reason="" Status="0" Text="2.Version screen not found when expecting one! Maybe not a version was opened from the enquiry!" Time="1658956087056"/>
+                                <SET_FIELDS Status="12" Text="SET_FIELDS" Time="1658956087058" User="1" UserGroup="UserGroup">
+                                    <SET_FIELDS Status="12" Text="TELLER,BRIP.FCY.CASHCHQ.CARD" Time="1658956087059" User="1" UserGroup="UserGroup">
+                                        <SET_FIELD OriginalValue="" Status="12" Text="AMOUNT.FCY.1.1" Time="1658956087064" User="1" UserGroup="UserGroup" Value="1800">
+                                            <Testcase Reason="AMOUNT.FCY.1" Status="0" Text="Field could not be found in the server's response." Time="1658956087064"/>
                                         </SET_FIELD>
-                                        <SET_FIELD OriginalValue="" Status="12" Text="ACCOUNT.2" Time="1658815481505" User="1" UserGroup="UserGroup" Value="1010010566">
-                                            <Testcase Reason="ACCOUNT.2" Status="0" Text="Field could not be found in the server's response." Time="1658815481506"/>
+                                        <SET_FIELD OriginalValue="" Status="12" Text="ACCOUNT.2" Time="1658956087070" User="1" UserGroup="UserGroup" Value="1010010566">
+                                            <Testcase Reason="ACCOUNT.2" Status="0" Text="Field could not be found in the server's response." Time="1658956087070"/>
                                         </SET_FIELD>
                                     </SET_FIELDS>
                                 </SET_FIELDS>
@@ -27,8 +27,19 @@
                                 <RECEIVED/>
                             </RunLog>
                         </Version>
-                        <Testcase Reason="" Status="1" Text="Script stopped. (Received Security violation. User logged out... )!" Time="1658815482299"/>
-                        <INFO/>
+                        <Testcase Reason="" Status="1" Text="java.lang.IllegalStateException: non-sensical empty or null argument array" Time="1658956087823"/>
+                        <Testcase Reason="org.slf4j.helpers.FormattingTuple:54" Status="1" Text="org.slf4j.helpers.FormattingTuple.trimmedCopy(FormattingTuple.java:54)" Time="1658956087824"/>
+                        <Testcase Reason="org.slf4j.helpers.FormattingTuple:48" Status="1" Text="org.slf4j.helpers.FormattingTuple.&amp;lt;init&amp;gt;(FormattingTuple.java:48)" Time="1658956087824"/>
+                        <Testcase Reason="org.ops4j.pax.logging.spi.support.FormattingTriple:40" Status="1" Text="org.ops4j.pax.logging.spi.support.FormattingTriple.&amp;lt;init&amp;gt;(FormattingTriple.java:40)" Time="1658956087824"/>
+                        <Testcase Reason="org.ops4j.pax.logging.spi.support.FormattingTriple:84" Status="1" Text="org.ops4j.pax.logging.spi.support.FormattingTriple.forArguments(FormattingTriple.java:84)" Time="1658956087824"/>
+                        <Testcase Reason="org.ops4j.pax.logging.spi.support.FormattingTriple:66" Status="1" Text="org.ops4j.pax.logging.spi.support.FormattingTriple.resolve(FormattingTriple.java:66)" Time="1658956087824"/>
+                        <Testcase Reason="org.ops4j.pax.logging.spi.support.DefaultServiceLog:409" Status="1" Text="org.ops4j.pax.logging.spi.support.DefaultServiceLog.error(DefaultServiceLog.java:409)" Time="1658956087824"/>
+                        <Testcase Reason="org.apache.log4j.Category:436" Status="1" Text="org.apache.log4j.Category.error(Category.java:436)" Time="1658956087824"/>
+                        <Testcase Reason="org.apache.log4j.Logger:231" Status="1" Text="org.apache.log4j.Logger.error(Logger.java:231)" Time="1658956087824"/>
+                        <Testcase Reason="com.corebanking.testmanager.t24.http.api.AbstractHttpScriptT24:2604" Status="1" Text="com.corebanking.testmanager.t24.http.api.AbstractHttpScriptT24.generalScriptExecution(AbstractHttpScriptT24.java:2604)" Time="1658956087824"/>
+                        <Testcase Reason="com.corebanking.testmanager.t24.http.api.VERSION:65" Status="1" Text="com.corebanking.testmanager.t24.http.api.VERSION.runScript(VERSION.java:65)" Time="1658956087824"/>
+                        <Testcase Reason="com.corebanking.testmanager.core.api.AbstractScript:488" Status="1" Text="com.corebanking.testmanager.core.api.AbstractScript.run(AbstractScript.java:488)" Time="1658956087824"/>
+                        <Testcase Reason="java.lang.Thread:-1" Status="1" Text="java.lang.Thread.run(Unknown Source)" Time="1658956087824"/>
                     </Script>
                 </Outputs>
             </Sequence>

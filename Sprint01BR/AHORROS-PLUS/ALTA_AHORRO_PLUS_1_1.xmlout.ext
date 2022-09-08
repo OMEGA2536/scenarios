@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root OsUserName="walte" appVer="TestStudio_3.0.0.202206080439">
+    <ExecutionLog comment="" status="New" topLevel="true">
+        <Day phase="" seqId="1,2" value="1">
+            <Sequence Duration="83395" Time="1660673088969" comment="[CP003_CTA PLUS CTE] ALTA DE CUENTA DE AHORROS PLUS CLIENTE" number="1" seqid="3" type="Test">
+                <Inputs>
+                    <InputMessage blockType="Call" condition="true">
+                        <Call UniqueCallName="pack__CP003_CTA_PLUS_CTE_ALTA_DE_CUENTA_DE_AHORROS_PLUS_CLIENTE_1_3" callee="SprintMayoBR.AhorroPlus.pack__CP003_CTA_PLUS_CTE_ALTA_DE_CUENTA_DE_AHORROS_PLUS_CLIENTE_1">
+                            <Param mandatory="true" name="CUSTOMER.ROLE.2_6" seqId="CUSTOMER.ROLE.2_6" value="#DP('dp_Cuenta','#USED','idRole')">
+                                <Testcase Reason="" Status="0" Text="No previous item in datapool 'dp_Cuenta'" Time="1660673089029"/>
+                                <Testcase Reason="" Status="0" Text="Failed to resolve value=#DP('dp_Cuenta','#USED','idRole')" Time="1660673172352"/>
+                            </Param>
+                            <Param mandatory="true" name="CURRENCY_6" seqId="CURRENCY_6" value="#DP('dp_Cuenta','#USED','idCurrency')">
+                                <Testcase Reason="" Status="0" Text="No previous item in datapool 'dp_Cuenta'" Time="1660673089036"/>
+                                <Testcase Reason="" Status="0" Text="Failed to resolve value=#DP('dp_Cuenta','#USED','idCurrency')" Time="1660673172354"/>
+                            </Param>
+                            <Param/>
+                            <Param mandatory="true" name="CUSTOMER.1_6" seqId="CUSTOMER.1_6" value="#DP('dp_Cuenta','#USED','idCliente')">
+                                <Testcase Reason="" Status="0" Text="No previous item in datapool 'dp_Cuenta'" Time="1660673089051"/>
+                                <Testcase Reason="" Status="0" Text="Failed to resolve value=#DP('dp_Cuenta','#USED','idCliente')" Time="1660673172357"/>
+                            </Param>
+                        </Call>
+                    </InputMessage>
+                </Inputs>
+                <Outputs/>
+            </Sequence>
+        </Day>
+    </ExecutionLog>
+</Root>

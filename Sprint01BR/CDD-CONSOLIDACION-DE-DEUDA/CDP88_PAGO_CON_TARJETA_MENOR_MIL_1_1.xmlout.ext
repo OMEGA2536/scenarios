@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root OsUserName="walte" appVer="TestStudio_3.0.0.202206080439">
+    <ExecutionLog comment="" status="New" topLevel="true">
+        <Day phase="" seqId="1,2" value="1">
+            <Sequence/>
+            <Sequence Duration="271508" Time="1662154191555" comment="[CDD_AUTH] AUTORIZAR_PAGO_CARGO_CTA" number="2" seqid="5" type="Test">
+                <Inputs/>
+                <Outputs Time="1662154191555">
+                    <Iteration Time="1662154191571" number="1">
+                        <Script Duration="271476" Time="1662154191571" class="com.corebanking.testmanager.core.api.XmlCallScript" name="com.corebanking.testmanager.core.api.XmlCallScript" scriptExecution="PASSED">
+                            <Call Status="12" Text="call details" Time="1662154191683" UniqueCallName="pack__CDD_AUTH_AUTORIZAR_PAGO_CARGO_CTA_1_5" User="1" UserGroup="UserGroup" callee="AUTOMATIZACION.pack__CDD_AUTH_AUTORIZAR_PAGO_CARGO_CTA_1" xmloutFile=".CDP88_PAGO_CON_TARJETA_MENOR_MIL_1_1/pack__CDD_AUTH_AUTORIZAR_PAGO_CARGO_CTA_1_5/pack__CDD_AUTH_AUTORIZAR_PAGO_CARGO_CTA_1_5.xmlout">
+                                <Parameters/>
+                                <Result blockersCount="1" firstErrorMessage="Failed to open version: RECORD IN HOLD-STATUS">
+                                    <Sequence/>
+                                    <Sequence Duration="7626" Time="1662154455000" comment="" number="2" seqid="5" type="Test">
+                                        <Inputs/>
+                                        <Outputs Time="1662154455000">
+                                            <Script Duration="4328" Time="1662154456547" class="com.corebanking.testmanager.t24.http.api.VERSION" name="com.corebanking.testmanager.t24.http.api.VERSION" scriptExecution="PASSED" user="JSILUPUS" usergroup="SUPERVISOR">
+                                                <Version Duration="4000" Time="1662154456578" comment="" mode="A" name="PAYMENT.ORDER_NEW" version="PAYMENT.ORDER,NEW">
+                                                    <RunLog>
+                                                        <INFO/>
+                                                        <TransactionID/>
+                                                        <SET_FIELDS/>
+                                                        <INFO Duration="3937" Status="12" Text="Committing ..." Time="1662154456641" User="1" UserGroup="UserGroup">
+                                                            <INFO/>
+                                                            <SENT/>
+                                                            <RECEIVED/>
+                                                            <Testcase Reason="RECORD IN HOLD-STATUS" Status="1" Text="Failed to open version: RECORD IN HOLD-STATUS" Time="1662154460563"/>
+                                                            <INFO Status="12" Text="Commit failed. (Check the communication for possible details.)" Time="1662154460563" User="1" UserGroup="UserGroup">
+                                                                <Testcase Reason="com.corebanking.testmanager.core.api.ScriptStopped" Status="0" Text="Failed to open version: RECORD IN HOLD-STATUS" Time="1662154460578"/>
+                                                                <Testcase Reason="com.corebanking.testmanager.t24.http.api.HttpScriptT24:1938" Status="0" Text="com.corebanking.testmanager.t24.http.api.HttpScriptT24.getAndRefreshFields(HttpScriptT24.java:1938)" Time="1662154460578"/>
+                                                                <Testcase Reason="com.corebanking.testmanager.t24.http.api.HttpScriptT24:1890" Status="0" Text="com.corebanking.testmanager.t24.http.api.HttpScriptT24.getAndRefreshFields(HttpScriptT24.java:1890)" Time="1662154460578"/>
+                                                                <Testcase Reason="com.corebanking.testmanager.t24.http.api.HttpScriptT24:1874" Status="0" Text="com.corebanking.testmanager.t24.http.api.HttpScriptT24.getAndRefreshFields(HttpScriptT24.java:1874)" Time="1662154460578"/>
+                                                                <Testcase Reason="com.corebanking.testmanager.t24.http.api.HttpScriptT24:2678" Status="0" Text="com.corebanking.testmanager.t24.http.api.HttpScriptT24.commitCore(HttpScriptT24.java:2678)" Time="1662154460578"/>
+                                                                <Testcase Reason="com.corebanking.testmanager.t24.http.api.HttpScriptT24:2421" Status="0" Text="com.corebanking.testmanager.t24.http.api.HttpScriptT24.commit(HttpScriptT24.java:2421)" Time="1662154460578"/>
+                                                                <Testcase Reason="com.corebanking.testmanager.t24.http.api.HttpScriptT24:418" Status="0" Text="com.corebanking.testmanager.t24.http.api.HttpScriptT24.versionScriptExecution(HttpScriptT24.java:418)" Time="1662154460578"/>
+                                                                <Testcase Reason="com.corebanking.testmanager.t24.http.api.VERSION:76" Status="0" Text="com.corebanking.testmanager.t24.http.api.VERSION.scriptExecution(VERSION.java:76)" Time="1662154460578"/>
+                                                                <Testcase Reason="com.corebanking.testmanager.t24.http.api.AbstractHttpScriptT24:2589" Status="0" Text="com.corebanking.testmanager.t24.http.api.AbstractHttpScriptT24.generalScriptExecution(AbstractHttpScriptT24.java:2589)" Time="1662154460578"/>
+                                                                <Testcase Reason="com.corebanking.testmanager.t24.http.api.VERSION:65" Status="0" Text="com.corebanking.testmanager.t24.http.api.VERSION.runScript(VERSION.java:65)" Time="1662154460578"/>
+                                                                <Testcase Reason="com.corebanking.testmanager.core.api.AbstractScript:488" Status="0" Text="com.corebanking.testmanager.core.api.AbstractScript.run(AbstractScript.java:488)" Time="1662154460578"/>
+                                                                <Testcase Reason="java.lang.Thread:-1" Status="0" Text="java.lang.Thread.run(Unknown Source)" Time="1662154460578"/>
+                                                            </INFO>
+                                                        </INFO>
+                                                        <INFO/>
+                                                        <SENT/>
+                                                        <RECEIVED/>
+                                                    </RunLog>
+                                                    <VersionFields/>
+                                                </Version>
+                                            </Script>
+                                        </Outputs>
+                                    </Sequence>
+                                </Result>
+                            </Call>
+                        </Script>
+                    </Iteration>
+                </Outputs>
+            </Sequence>
+        </Day>
+    </ExecutionLog>
+</Root>

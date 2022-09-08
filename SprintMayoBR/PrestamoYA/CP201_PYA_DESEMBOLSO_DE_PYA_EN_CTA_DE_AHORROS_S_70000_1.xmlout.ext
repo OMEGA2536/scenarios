@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root OsUserName="walte" appVer="TestStudio_3.0.0.202206080439">
+    <ExecutionLog comment="[CP201_PYA] DESEMBOLSO DE PYA EN CTA DE AHORROS_S/70000" status="New" topLevel="true">
+        <Day phase="" seqId="1,2" value="1">
+            <Sequence Duration="23768" Time="1659989592308" comment="" number="1" seqid="3" type="Test" usergroup="OP_CAJERO">
+                <Inputs/>
+                <Outputs Time="1659989592308">
+                    <Script Duration="23297" Time="1659989592607" class="com.corebanking.testmanager.t24.http.api.VERSION" name="com.corebanking.testmanager.t24.http.api.VERSION" usergroup="OP_CAJERO">
+                        <Version/>
+                        <Version Duration="891" Time="1659989614982" comment="" mode="S" name="PAYMENT.ORDER_AA.LOANDISBURSEMENT" version="PAYMENT.ORDER,AA.LOANDISBURSEMENT">
+                            <RunLog user="TESTCAJERO1">
+                                <SENT/>
+                                <INFO/>
+                                <Testcase Reason="" Status="1" Text="Script stopped on user request." Time="1659989615904"/>
+                            </RunLog>
+                        </Version>
+                    </Script>
+                </Outputs>
+            </Sequence>
+        </Day>
+    </ExecutionLog>
+</Root>

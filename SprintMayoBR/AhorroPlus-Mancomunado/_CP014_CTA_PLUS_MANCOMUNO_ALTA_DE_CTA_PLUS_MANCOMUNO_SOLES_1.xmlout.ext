@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root OsUserName="walte" appVer="TestStudio_3.0.0.202206080439">
+    <ExecutionLog comment="[CP014_CTA PLUS MANCOMUNO] ALTA DE CTA PLUS MANCOMUNO SOLES" status="New" topLevel="true">
+        <Day phase="" seqId="1,2" value="1">
+            <Sequence/>
+            <Sequence/>
+            <Sequence Duration="53297" Time="1660931673842" comment="" number="3" seqid="6" type="Test" user="JSILUPUA" usergroup="ASESOR">
+                <Inputs/>
+                <Outputs Time="1660931673842">
+                    <Script Duration="52641" Time="1660931674373" class="com.corebanking.t24.http.VERSIONAA" name="com.corebanking.t24.http.VERSIONAA" scriptExecution="PASSED" user="JSILUPUA" usergroup="ASESOR">
+                        <Version comment="" mode="I" name="AC001003" version="AC001003">
+                            <RunLog>
+                                <INFO/>
+                                <TransactionID/>
+                                <SET_FIELDS/>
+                                <SENT/>
+                                <RECEIVED/>
+                                <INFO/>
+                                <SENT/>
+                                <RECEIVED/>
+                                <INFO Duration="19344" Status="12" Text="Committing ..." Time="1660931707607" User="1" UserGroup="UserGroup">
+                                    <INFO/>
+                                    <SENT/>
+                                    <RECEIVED/>
+                                    <Testcase/>
+                                    <Testcase/>
+                                    <Testcase Reason="[#text: Cuenta - Tipo de Mancomuno]: [#text: INPUT MISSING]&#xd;&#xa;[#text: ALT.ID.2]: [#text: IN-ACCT.LEN.GREATER.THAN.IBAN.ACCT.LEN]" Status="1" Text="TXN FAILED" Time="1660931726608"/>
+                                    <Testcase Reason="Expected PASS" Status="1" Text="Commit failed" Time="1660931726608"/>
+                                    <SENT/>
+                                    <RECEIVED/>
+                                </INFO>
+                            </RunLog>
+                            <AAVersionFields/>
+                        </Version>
+                    </Script>
+                </Outputs>
+            </Sequence>
+            <Sequence/>
+            <Sequence/>
+            <Sequence/>
+        </Day>
+    </ExecutionLog>
+</Root>

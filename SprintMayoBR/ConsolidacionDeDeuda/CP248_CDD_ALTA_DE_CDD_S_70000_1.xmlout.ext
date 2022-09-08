@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root OsUserName="walte" appVer="TestStudio_3.0.0.202206080439">
+    <ExecutionLog comment="[CP248_CDD] ALTA DE CDD S/70000" status="New" topLevel="true">
+        <Day phase="" seqId="1,2" value="1">
+            <Sequence/>
+            <Sequence/>
+            <Sequence Duration="6009" Time="1659896096437" comment="" number="3" seqid="6" type="Test" user="JSILUPUS" usergroup="SUPERVISOR">
+                <Inputs/>
+                <Outputs Time="1659896096437">
+                    <Script Duration="4886" Time="1659896097190" class="com.corebanking.t24.http.VERSIONAA" name="com.corebanking.t24.http.VERSIONAA" scriptExecution="PASSED" user="JSILUPUS" usergroup="SUPERVISOR">
+                        <Version comment="" mode="I" name="LD011002" version="LD011002">
+                            <RunLog>
+                                <INFO/>
+                                <TransactionID/>
+                                <SET_FIELDS/>
+                                <SENT/>
+                                <RECEIVED/>
+                                <Testcase/>
+                                <Testcase/>
+                                <INFO/>
+                                <SET_FIELDS/>
+                                <SENT/>
+                                <RECEIVED/>
+                                <Testcase/>
+                                <Testcase/>
+                                <INFO Duration="1218" Status="12" Text="Committing ..." Time="1659896100848" User="1" UserGroup="UserGroup">
+                                    <INFO/>
+                                    <SENT/>
+                                    <RECEIVED/>
+                                    <Testcase/>
+                                    <Testcase/>
+                                    <Testcase Reason="Rol del Cliente.1: At least one customer must be Beneficial Owner&#xd;&#xa;Cliente.1: MANDATORY INPUT FOR NEW ARRANGEMENT" Status="1" Text="TXN FAILED" Time="1659896102063"/>
+                                    <Testcase Reason="Expected PASS" Status="1" Text="Commit failed" Time="1659896102066"/>
+                                    <INFO/>
+                                </INFO>
+                            </RunLog>
+                            <VersionFields/>
+                        </Version>
+                    </Script>
+                </Outputs>
+            </Sequence>
+            <Sequence/>
+        </Day>
+    </ExecutionLog>
+</Root>

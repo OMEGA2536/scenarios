@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root OsUserName="walte" appVer="TestStudio_3.0.0.202206080439">
+    <ExecutionLog comment="" status="New" topLevel="true">
+        <Day phase="" seqId="1,2" value="1">
+            <Sequence Duration="64380" Time="1661795694042" comment="[CP246_CONSOLIDACION DE DEUDA] Alta de prestamo CDD " number="1" seqid="4" type="Test">
+                <Inputs/>
+                <Outputs Time="1661795694042">
+                    <Script Duration="64191" Time="1661795694196" class="com.corebanking.testmanager.core.api.XmlCallScript" name="com.corebanking.testmanager.core.api.XmlCallScript" scriptExecution="PASSED">
+                        <Call Status="12" Text="call details" Time="1661795694210" UniqueCallName="pack__CP246_CONSOLIDACION_DE_DEUDA_Alta_de_prestamo_CDD__1_4" User="1" UserGroup="UserGroup" callee="AUTOMATIZACION.pack__CP246_CONSOLIDACION_DE_DEUDA_Alta_de_prestamo_CDD__1" xmloutFile=".CDP80_ALTA_CDD_500_TEM834_DIA15_1_1/pack__CP246_CONSOLIDACION_DE_DEUDA_Alta_de_prestamo_CDD__1_4/pack__CP246_CONSOLIDACION_DE_DEUDA_Alta_de_prestamo_CDD__1_4.xmlout">
+                            <Parameters/>
+                            <Result blockersCount="2" firstErrorMessage="TXN FAILED">
+                                <Sequence/>
+                                <Sequence/>
+                                <Sequence Duration="42965" Time="1661795715083" comment="" number="3" seqid="6" type="Test">
+                                    <Inputs/>
+                                    <Outputs Time="1661795715083">
+                                        <Script Duration="41365" Time="1661795715740" class="com.corebanking.t24.http.VERSIONAA" name="com.corebanking.t24.http.VERSIONAA" scriptExecution="PASSED" user="dcaycho1" usergroup="USER_CDD">
+                                            <Version comment="" mode="I" name="LD011002" version="LD011002">
+                                                <RunLog>
+                                                    <INFO/>
+                                                    <TransactionID/>
+                                                    <SET_FIELDS/>
+                                                    <SENT/>
+                                                    <RECEIVED/>
+                                                    <INFO/>
+                                                    <SET_FIELD/>
+                                                    <SET_FIELD/>
+                                                    <SET_FIELD/>
+                                                    <SET_FIELD/>
+                                                    <SET_FIELD/>
+                                                    <SET_FIELD/>
+                                                    <SET_FIELD/>
+                                                    <SET_FIELD/>
+                                                    <SENT/>
+                                                    <RECEIVED/>
+                                                    <INFO Duration="15599" Status="12" Text="Committing ..." Time="1661795741459" User="1" UserGroup="UserGroup">
+                                                        <INFO/>
+                                                        <SENT/>
+                                                        <RECEIVED/>
+                                                        <Testcase/>
+                                                        <Testcase Reason="[#text: Monto Fijo]: [#text: Fixed amount should be mandatory]" Status="1" Text="TXN FAILED" Time="1661795756685"/>
+                                                        <Testcase Reason="Expected PASS" Status="1" Text="Commit failed" Time="1661795756686"/>
+                                                        <SENT/>
+                                                        <RECEIVED/>
+                                                    </INFO>
+                                                </RunLog>
+                                                <AAVersionFields/>
+                                            </Version>
+                                        </Script>
+                                    </Outputs>
+                                </Sequence>
+                            </Result>
+                        </Call>
+                    </Script>
+                </Outputs>
+            </Sequence>
+        </Day>
+    </ExecutionLog>
+</Root>

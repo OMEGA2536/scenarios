@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root OsUserName="walte" appVer="TestStudio_3.0.0.202206080439">
+    <ExecutionLog comment="[CP259_CDD] PAGO ANTICIPADO REDUCCION DE CUOTA MENOS A S/1000" status="New" topLevel="true">
+        <Day phase="" seqId="1,2" value="1">
+            <Sequence Duration="17068" Time="1659898663579" comment="" number="1" seqid="3" type="Test" user="TESTCAJERO1" usergroup="OP_CAJERO">
+                <Inputs/>
+                <Outputs Time="1659898663579">
+                    <Script Duration="16879" Time="1659898663717" class="com.corebanking.t24.http.COS" name="com.corebanking.t24.http.COS" scriptExecution="PASSED" user="TESTCAJERO1" usergroup="OP_CAJERO">
+                        <INFO/>
+                        <INFO/>
+                        <INFO/>
+                        <SENT/>
+                        <RECEIVED/>
+                        <Data/>
+                        <SelectionResult/>
+                        <Testcase Reason="xpathFilter=.//Row" Status="2" Text="Expected one or more rows. Enquiry returned no result." Time="1659898680316"/>
+                        <SENT/>
+                        <RECEIVED/>
+                    </Script>
+                </Outputs>
+            </Sequence>
+            <Sequence/>
+            <Sequence/>
+            <Sequence Duration="5397" Time="1659898683147" comment="" number="4" seqid="9" type="Test" user="TESTCAJERO1" usergroup="OP_CAJERO">
+                <Inputs/>
+                <Outputs Time="1659898683147">
+                    <Script Duration="5059" Time="1659898683335" class="com.corebanking.testmanager.t24.http.api.ENQUIRY" name="BRIP.ENQ.CREDIT.PAYMENT.TT" scriptExecution="PASSED" user="TESTCAJERO1" usergroup="OP_CAJERO">
+                        <SENT/>
+                        <RECEIVED/>
+                        <SENT/>
+                        <RECEIVED/>
+                        <Data/>
+                        <SelectionResult/>
+                        <Testcase Reason="xpathFilter=.//Row[(Field[@Name='ARRANGEMENT' and (normalize-space(@Value) = normalize-space('AA22077R5XHF') )]) and (Field[@Name='MONEDA' and (normalize-space(@Value) = normalize-space('PEN') )]) and (Field[@Name='M. DESEMBOLSADO' and (normalize-space(@Value) = normalize-space('10500') or normalize-space(@Value) = normalize-space('10,500.00'))]) and (Field[@Name='M.T. ADEUDADO' and (normalize-space(@Value) = normalize-space('320.59') or normalize-space(@Value) = normalize-space('320.59'))]) and (Field[@Name='M.T.ADEUDADO+ITF' and (normalize-space(@Value) = normalize-space('320.59') or normalize-space(@Value) = normalize-space('320.59'))]) and (Field[@Name='UNC' and (normalize-space(@Value) = normalize-space('0') or normalize-space(@Value) = normalize-space('0.00'))]) and (Field[@Name='V.CUOTA' and (normalize-space(@Value) = normalize-space('320.59') or normalize-space(@Value) = normalize-space('320.59'))]) and (Field[@Name='M.MIN.PAG ANTIC.' and (normalize-space(@Value) = normalize-space('641.19') or normalize-space(@Value) = normalize-space('641.19'))]) and (Field[@Name='M.MIN.PAG ANTIC+ITF' and (normalize-space(@Value) = normalize-space('641.19') or normalize-space(@Value) = normalize-space('641.19'))])]" Status="2" Text="Expected one or more rows. Enquiry returned no result." Time="1659898688142"/>
+                        <Testcase Reason="" Status="1" Text="Could not execute popup menu!" Time="1659898688142"/>
+                        <SENT/>
+                        <RECEIVED/>
+                    </Script>
+                </Outputs>
+            </Sequence>
+            <Sequence/>
+            <Sequence/>
+            <Sequence/>
+            <Sequence/>
+        </Day>
+    </ExecutionLog>
+</Root>

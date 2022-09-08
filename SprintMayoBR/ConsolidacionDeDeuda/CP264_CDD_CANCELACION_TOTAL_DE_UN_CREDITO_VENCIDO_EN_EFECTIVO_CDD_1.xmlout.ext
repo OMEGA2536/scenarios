@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root OsUserName="walte" appVer="TestStudio_3.0.0.202206080439">
+    <ExecutionLog comment="[CP264_CDD] CANCELACION TOTAL DE UN CREDITO VENCIDO EN EFECTIVO_CDD" status="New" topLevel="true">
+        <Day phase="" seqId="1,2" value="1">
+            <Sequence Duration="3422" Time="1659902758686" comment="" number="1" seqid="3" type="Test">
+                <Inputs/>
+                <Outputs Time="1659902758686">
+                    <Script Duration="3151" Time="1659902758820" class="com.corebanking.t24.http.COS" name="com.corebanking.t24.http.COS" scriptExecution="FAILED">
+                        <Testcase Reason="" Status="1" Text="java.lang.IllegalStateException: non-sensical empty or null argument array" Time="1659902761917"/>
+                        <Testcase Reason="org.slf4j.helpers.FormattingTuple:54" Status="1" Text="org.slf4j.helpers.FormattingTuple.trimmedCopy(FormattingTuple.java:54)" Time="1659902761917"/>
+                        <Testcase Reason="org.slf4j.helpers.FormattingTuple:48" Status="1" Text="org.slf4j.helpers.FormattingTuple.&amp;lt;init&amp;gt;(FormattingTuple.java:48)" Time="1659902761917"/>
+                        <Testcase Reason="org.ops4j.pax.logging.spi.support.FormattingTriple:40" Status="1" Text="org.ops4j.pax.logging.spi.support.FormattingTriple.&amp;lt;init&amp;gt;(FormattingTriple.java:40)" Time="1659902761918"/>
+                        <Testcase Reason="org.ops4j.pax.logging.spi.support.FormattingTriple:84" Status="1" Text="org.ops4j.pax.logging.spi.support.FormattingTriple.forArguments(FormattingTriple.java:84)" Time="1659902761918"/>
+                        <Testcase Reason="org.ops4j.pax.logging.spi.support.FormattingTriple:66" Status="1" Text="org.ops4j.pax.logging.spi.support.FormattingTriple.resolve(FormattingTriple.java:66)" Time="1659902761918"/>
+                        <Testcase Reason="org.ops4j.pax.logging.spi.support.DefaultServiceLog:409" Status="1" Text="org.ops4j.pax.logging.spi.support.DefaultServiceLog.error(DefaultServiceLog.java:409)" Time="1659902761918"/>
+                        <Testcase Reason="org.apache.log4j.Category:436" Status="1" Text="org.apache.log4j.Category.error(Category.java:436)" Time="1659902761918"/>
+                        <Testcase Reason="org.apache.log4j.Logger:231" Status="1" Text="org.apache.log4j.Logger.error(Logger.java:231)" Time="1659902761918"/>
+                        <Testcase Reason="com.corebanking.testmanager.t24.http.api.AbstractHttpScriptT24:2598" Status="1" Text="com.corebanking.testmanager.t24.http.api.AbstractHttpScriptT24.generalScriptExecution(AbstractHttpScriptT24.java:2598)" Time="1659902761918"/>
+                        <Testcase Reason="com.corebanking.t24.http.COS:86" Status="1" Text="com.corebanking.t24.http.COS.runScript(COS.java:86)" Time="1659902761918"/>
+                        <Testcase Reason="com.corebanking.testmanager.core.api.AbstractScript:488" Status="1" Text="com.corebanking.testmanager.core.api.AbstractScript.run(AbstractScript.java:488)" Time="1659902761918"/>
+                        <Testcase Reason="java.lang.Thread:-1" Status="1" Text="java.lang.Thread.run(Unknown Source)" Time="1659902761918"/>
+                    </Script>
+                </Outputs>
+            </Sequence>
+            <Sequence/>
+            <Sequence/>
+            <Sequence/>
+            <Sequence/>
+            <Sequence/>
+            <Sequence/>
+        </Day>
+    </ExecutionLog>
+</Root>

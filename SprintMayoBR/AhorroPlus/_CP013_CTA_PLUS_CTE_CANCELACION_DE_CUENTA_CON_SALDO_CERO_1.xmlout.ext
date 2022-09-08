@@ -1,16 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Root OsUserName="MSI" appVer="TestStudio_3.0.0.202008111248">
+<Root OsUserName="walte" appVer="TestStudio_3.0.0.202206080439">
     <ExecutionLog comment="[CP013_CTA PLUS CTE] CANCELACION DE CUENTA CON SALDO CERO" status="New" topLevel="true">
         <Day phase="" seqId="1,2" value="1">
-            <Sequence Duration="103" Time="1658812204707" comment="" number="1" seqid="3" type="">
+            <Sequence/>
+            <Sequence Duration="34469" Time="1660502746048" comment="" number="2" seqid="6" type="Test" user="JSILUPUA" usergroup="ASESOR">
                 <Inputs/>
-                <Outputs Time="1658812204707">
-                    <Script Duration="8" Time="1658812204743" class="com.corebanking.t24.http.COS" name="com.corebanking.t24.http.COS">
-                        <Testcase Reason="" Status="1" Text="Script stopped. (T24 user for role 'ASESOR PASIVOS' not defined!)!" Time="1658812204751"/>
+                <Outputs Time="1660502746048">
+                    <Script Duration="34344" Time="1660502746126" class="com.corebanking.t24.http.COS" name="com.corebanking.t24.http.COS" scriptExecution="PASSED" user="JSILUPUA" usergroup="ASESOR">
+                        <INFO Status="12" Text="Composite screen AA.PAYOFF.REQUESTS.AR" Time="1660502746142" User="1" UserGroup="UserGroup" comment="">
+                            <INFO/>
+                            <INFO/>
+                            <INFO/>
+                            <SENT/>
+                            <RECEIVED BytesCount="0" Command="com.corebanking.t24.http.COS-COS-AA.PAYOFF.REQUESTS.AR-Get frame content" Duration="31" ErrorMessage="FAILED: Expected response code = 200 Received = Not Found(404)" Response.Accept-Ranges="[bytes]" Response.Connection="[keep-alive]" Response.Content-Type="[text/html]" Response.Date="[Sun, 14 Aug 2022 18:46:20 GMT]" Response.Last-Modified="[Mon, 24 Jun 2019 20:05:40 GMT]" Response.Server="[JBoss-EAP/7]" Response.Strict-Transport-Security="[max-age=86400]" Response.X-Content-Type-Options="[nosniff]" Response.X-FRAME-OPTIONS="[SAMEORIGIN]" Response.X-Permitted-Cross-Domain-Policies="[none]" Response.X-Powered-By="[Undertow/1]" Response.X-XSS-Protection="[1; mode=block]" Status="1" Text.zip="1F8B080000000000000003000000000000000000" Time="1660502779993" URL="https://10.167.21.100:8480/BrowserWebSAD/servlet/" User="1" UserGroup="UserGroup" id="" selected="true"/>
+                        </INFO>
+                        <INFO/>
+                        <SelectionResult/>
+                        <SENT/>
+                        <RECEIVED/>
                     </Script>
                 </Outputs>
             </Sequence>
-            <Sequence/>
             <Sequence/>
             <Sequence/>
             <Sequence/>

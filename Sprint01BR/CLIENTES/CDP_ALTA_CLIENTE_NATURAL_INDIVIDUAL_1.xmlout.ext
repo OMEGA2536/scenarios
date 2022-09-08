@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root OsUserName="walte" appVer="TestStudio_3.0.0.202206080439">
+    <ExecutionLog comment="" status="New" topLevel="true">
+        <Day phase="" seqId="1,2" value="1">
+            <Sequence Duration="69366" Time="1661028778747" comment="Crear Cliente Natural" number="1" seqid="6" type="Test">
+                <Inputs>
+                    <InputMessage blockType="Call" condition="true">
+                        <Call UniqueCallName="pack_ClienteNatural02_1_6" callee="BasicDesign.pack_ClienteNatural02_1">
+                            <Param/>
+                            <Param/>
+                            <Param/>
+                            <Param/>
+                            <Param/>
+                            <Param/>
+                            <Param/>
+                            <Param/>
+                            <Param/>
+                            <Param/>
+                            <Param/>
+                            <Param/>
+                            <Param/>
+                            <Param/>
+                            <Param/>
+                            <Param/>
+                            <Param/>
+                            <Param/>
+                            <Param/>
+                            <Param mandatory="true" name="LEGAL.ID.2_3_1" seqId="LEGAL.ID.2_3_1" value="#ASSIGN_PARAM('LEGAL.ID_EXPECTED.1.1.1_3')">
+                                <Testcase Reason="" Status="0" Text="Failed to resolve value=#ASSIGN_PARAM('LEGAL.ID_EXPECTED.1.1.1_3')" Time="1661028848103"/>
+                            </Param>
+                            <Param/>
+                            <Param/>
+                            <Param/>
+                        </Call>
+                    </InputMessage>
+                </Inputs>
+                <Outputs Time="1661028778747">
+                    <Script Duration="68743" Time="1661028779037" class="com.corebanking.testmanager.core.api.XmlCallScript" name="com.corebanking.testmanager.core.api.XmlCallScript" scriptExecution="PASSED">
+                        <Call Status="12" Text="call details" Time="1661028779052" UniqueCallName="pack_ClienteNatural02_1_6" User="1" UserGroup="UserGroup" callee="BasicDesign.pack_ClienteNatural02_1" xmloutFile=".CDP_ALTA_CLIENTE_NATURAL_INDIVIDUAL_1/pack_ClienteNatural02_1_6/pack_ClienteNatural02_1_6.xmlout">
+                            <Parameters/>
+                            <Result blockersCount="0" firstErrorMessage="Failed to resolve PostAction=#PARAM('LEGAL.ID.2_3_1')">
+                                <Sequence Duration="68058" Time="1661028779464" comment="Crear cliente individual" number="1" seqid="3" type="Test">
+                                    <Inputs>
+                                        <InputMessage blockType="T24Version" class="com.corebanking.testmanager.t24.http.api.VERSION" condition="true">
+                                            <FieldValues Authorize="" Commit="PASS" Mode="I" MultiVersion="true" Override="-1" UniqueVerName="CUSTOMER_3" Verify="true" bpUsergroup="TEST_QA" onFailure="Drop" reopenMode="S" usergroup="TEST_QA" version="CUSTOMER,INPUT.BRANCH.PE">
+                                                <FieldValues subVersion="true" subVersionTitle="" version="CUSTOMER,INPUT.BRANCH.PE">
+                                                    <SEARCH_ID/>
+                                                    <LEGAL.DOC.NAME append="false" multivalue="yes" toBeDeletedFirst="">
+                                                        <item>
+                                                            <LEGAL.DOC.NAME/>
+                                                            <LEGAL.ID Expected="#IGNORE()" OriginalExpected="#PARAM('LEGAL.ID.2_3_1')" OriginalValue="#PARAM('LEGAL.ID.2_3')" PostAction="#PARAM('LEGAL.ID.2_3_1')" Type="I" Valid="V" Value="21877203" fieldDescriptor="Número de Documento de Identidad" fieldType="" fldNo="LEGAL.ID" hot="yes" hotVal="" postfix=":1" required="" tabDescriptor="Cliente" validateAfter="">
+                                                                <INFO_IGNORE/>
+                                                                <INFO_IGNORE/>
+                                                                <INFO_IGNORE/>
+                                                                <Testcase Reason="" Status="0" Text="Failed to resolve PostAction=#PARAM('LEGAL.ID.2_3_1')" Time="1661028847305"/>
+                                                            </LEGAL.ID>
+                                                        </item>
+                                                    </LEGAL.DOC.NAME>
+                                                    <SECTOR/>
+                                                    <NAME.1.1/>
+                                                    <STREET.1/>
+                                                    <ADDRESS/>
+                                                    <GENDER/>
+                                                    <NATIONALITY/>
+                                                    <DATE.OF.BIRTH/>
+                                                    <CONFID.TXT/>
+                                                    <PHONE.1/>
+                                                    <MNEMONIC/>
+                                                    <EMPLOYMENT.STATUS/>
+                                                    <OCCUPATION.1/>
+                                                    <FAMILY.NAME/>
+                                                    <NAME.2.1/>
+                                                    <SHORT.NAME.1/>
+                                                </FieldValues>
+                                            </FieldValues>
+                                        </InputMessage>
+                                    </Inputs>
+                                    <Outputs/>
+                                </Sequence>
+                            </Result>
+                        </Call>
+                    </Script>
+                </Outputs>
+            </Sequence>
+        </Day>
+    </ExecutionLog>
+</Root>

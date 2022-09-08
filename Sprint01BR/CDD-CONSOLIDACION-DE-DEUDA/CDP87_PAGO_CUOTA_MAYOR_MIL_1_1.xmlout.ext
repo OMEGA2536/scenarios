@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root OsUserName="walte" appVer="TestStudio_3.0.0.202206080439">
+    <ExecutionLog comment="" status="New" topLevel="true">
+        <Day phase="" seqId="1,2" value="1">
+            <Sequence Duration="60680" Time="1662148429258" comment="[CDD_PAY] PAGO_DE_CUOTA_CDD" number="1" seqid="3" type="Test">
+                <Inputs/>
+                <Outputs Time="1662148429258">
+                    <Iteration Time="1662148429500" number="1">
+                        <Script Duration="60391" Time="1662148429500" class="com.corebanking.testmanager.core.api.XmlCallScript" name="com.corebanking.testmanager.core.api.XmlCallScript" scriptExecution="PASSED">
+                            <Call Status="12" Text="call details" Time="1662148429531" UniqueCallName="pack__CDD_PAY_PAGO_DE_CUOTA_CDD_1_3" User="1" UserGroup="UserGroup" callee="AUTOMATIZACION.pack__CDD_PAY_PAGO_DE_CUOTA_CDD_1" xmloutFile=".CDP87_PAGO_CUOTA_MAYOR_MIL_1_1/pack__CDD_PAY_PAGO_DE_CUOTA_CDD_1_3/pack__CDD_PAY_PAGO_DE_CUOTA_CDD_1_3.xmlout">
+                                <Parameters/>
+                                <Result blockersCount="13" firstErrorMessage="">
+                                    <Sequence/>
+                                    <Sequence Duration="33391" Time="1662148456250" comment="" number="2" seqid="4" type="Test">
+                                        <Inputs/>
+                                        <Outputs Time="1662148456250">
+                                            <Script Duration="33313" Time="1662148456281" class="com.corebanking.testmanager.t24.http.api.VERSION" name="com.corebanking.testmanager.t24.http.api.VERSION" scriptExecution="FAILED" user="JLEIVAC" usergroup="CAJERO">
+                                                <Version Duration="30703" Time="1662148456313" comment="" mode="I" name="TELLER_BRIP.AA.REPAY" version="TELLER,BRIP.AA.REPAY">
+                                                    <RunLog>
+                                                        <INFO/>
+                                                        <TransactionID/>
+                                                        <SET_FIELDS Status="12" Text="SET_FIELDS" Time="1662148456406" User="1" UserGroup="UserGroup">
+                                                            <SET_FIELDS Status="12" Text="TELLER,BRIP.AA.REPAY" Time="1662148456406" User="1" UserGroup="UserGroup">
+                                                                <SET_FIELD/>
+                                                                <SENT/>
+                                                                <INFO/>
+                                                                <INFO/>
+                                                                <INFO/>
+                                                                <INFO/>
+                                                                <INFO/>
+                                                                <INFO/>
+                                                                <INFO/>
+                                                                <INFO/>
+                                                                <INFO/>
+                                                                <INFO/>
+                                                                <INFO/>
+                                                                <INFO/>
+                                                                <INFO/>
+                                                                <INFO/>
+                                                                <INFO/>
+                                                                <INFO/>
+                                                                <INFO/>
+                                                                <INFO/>
+                                                                <INFO/>
+                                                                <INFO/>
+                                                                <INFO/>
+                                                                <INFO/>
+                                                                <INFO/>
+                                                                <INFO/>
+                                                                <INFO/>
+                                                                <RECEIVED BytesCount="0" Command="com.corebanking.testmanager.t24.http.api.VERSION-TELLER,BRIP.AA.REPAY.HotValValidateField_AMOUNT.LOCAL.1:1:1" Duration="30033" ErrorMessage="FAILED: Unable to read response at command com.corebanking.testmanager.t24.http.api.VERSION-TELLER,BRIP.AA.REPAY.HotValValidateField_AMOUNT.LOCAL.1:1:1 user 1 (java.lang.IllegalStateException: non-sensical empty or null argument array)" Status="1" Time="1662148486469" URL="https://10.167.21.100:8480/BrowserWebSAD/servlet/BrowserServlet" User="1" UserGroup="UserGroup"/>
+                                                            </SET_FIELDS>
+                                                        </SET_FIELDS>
+                                                        <SENT/>
+                                                        <RECEIVED/>
+                                                        <SENT/>
+                                                        <RECEIVED/>
+                                                    </RunLog>
+                                                    <VersionFields/>
+                                                </Version>
+                                                <Testcase Reason="" Status="1" Text="java.lang.IllegalStateException: non-sensical empty or null argument array" Time="1662148489594"/>
+                                                <Testcase Reason="org.slf4j.helpers.FormattingTuple:54" Status="1" Text="org.slf4j.helpers.FormattingTuple.trimmedCopy(FormattingTuple.java:54)" Time="1662148489594"/>
+                                                <Testcase Reason="org.slf4j.helpers.FormattingTuple:48" Status="1" Text="org.slf4j.helpers.FormattingTuple.&amp;lt;init&amp;gt;(FormattingTuple.java:48)" Time="1662148489594"/>
+                                                <Testcase Reason="org.ops4j.pax.logging.spi.support.FormattingTriple:40" Status="1" Text="org.ops4j.pax.logging.spi.support.FormattingTriple.&amp;lt;init&amp;gt;(FormattingTriple.java:40)" Time="1662148489594"/>
+                                                <Testcase Reason="org.ops4j.pax.logging.spi.support.FormattingTriple:84" Status="1" Text="org.ops4j.pax.logging.spi.support.FormattingTriple.forArguments(FormattingTriple.java:84)" Time="1662148489594"/>
+                                                <Testcase Reason="org.ops4j.pax.logging.spi.support.FormattingTriple:66" Status="1" Text="org.ops4j.pax.logging.spi.support.FormattingTriple.resolve(FormattingTriple.java:66)" Time="1662148489594"/>
+                                                <Testcase Reason="org.ops4j.pax.logging.spi.support.DefaultServiceLog:409" Status="1" Text="org.ops4j.pax.logging.spi.support.DefaultServiceLog.error(DefaultServiceLog.java:409)" Time="1662148489594"/>
+                                                <Testcase Reason="org.apache.log4j.Category:436" Status="1" Text="org.apache.log4j.Category.error(Category.java:436)" Time="1662148489594"/>
+                                                <Testcase Reason="org.apache.log4j.Logger:231" Status="1" Text="org.apache.log4j.Logger.error(Logger.java:231)" Time="1662148489594"/>
+                                                <Testcase Reason="com.corebanking.testmanager.t24.http.api.AbstractHttpScriptT24:2604" Status="1" Text="com.corebanking.testmanager.t24.http.api.AbstractHttpScriptT24.generalScriptExecution(AbstractHttpScriptT24.java:2604)" Time="1662148489594"/>
+                                                <Testcase Reason="com.corebanking.testmanager.t24.http.api.VERSION:65" Status="1" Text="com.corebanking.testmanager.t24.http.api.VERSION.runScript(VERSION.java:65)" Time="1662148489594"/>
+                                                <Testcase Reason="com.corebanking.testmanager.core.api.AbstractScript:488" Status="1" Text="com.corebanking.testmanager.core.api.AbstractScript.run(AbstractScript.java:488)" Time="1662148489594"/>
+                                                <Testcase Reason="java.lang.Thread:-1" Status="1" Text="java.lang.Thread.run(Unknown Source)" Time="1662148489594"/>
+                                            </Script>
+                                        </Outputs>
+                                    </Sequence>
+                                </Result>
+                            </Call>
+                        </Script>
+                    </Iteration>
+                </Outputs>
+            </Sequence>
+        </Day>
+    </ExecutionLog>
+</Root>

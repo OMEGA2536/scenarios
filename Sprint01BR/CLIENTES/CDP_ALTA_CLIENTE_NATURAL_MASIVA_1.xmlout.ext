@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root OsUserName="walte" appVer="TestStudio_3.0.0.202206080439">
+    <ExecutionLog comment="" status="New" topLevel="true">
+        <Day phase="" seqId="1,2" value="1">
+            <Sequence/>
+            <Sequence Duration="6468" Time="1662656616976" comment="[CRITERIOS_CLIENTE] CRI_ACEPTACIO_ALTA_CLIENTE" number="2" seqid="10" type="Test">
+                <Inputs/>
+                <Outputs Time="1662656616976">
+                    <Iteration Time="1662656617069" number="1">
+                        <Script Duration="3954" Time="1662656617069" class="com.corebanking.testmanager.core.api.XmlCallScript" name="com.corebanking.testmanager.core.api.XmlCallScript" scriptExecution="PASSED">
+                            <Call Status="12" Text="call details" Time="1662656617101" UniqueCallName="pack__CRITERIOS_CLIENTE_CRI_ACEPTACIO_ALTA_CLIENTE_1_10" User="1" UserGroup="UserGroup" callee="AUTOMATIZACION.pack__CRITERIOS_CLIENTE_CRI_ACEPTACIO_ALTA_CLIENTE_1" xmloutFile=".CDP_ALTA_CLIENTE_NATURAL_MASIVA_1/pack__CRITERIOS_CLIENTE_CRI_ACEPTACIO_ALTA_CLIENTE_1_10/pack__CRITERIOS_CLIENTE_CRI_ACEPTACIO_ALTA_CLIENTE_1_10.xmlout">
+                                <Parameters/>
+                                <Result blockersCount="0" firstErrorMessage="">
+                                    <Sequence Duration="828" Time="1662656621632" comment="" number="1" seqid="3" type="Test">
+                                        <Inputs/>
+                                        <Outputs Time="1662656621632">
+                                            <Script Duration="735" Time="1662656621710" class="com.corebanking.testmanager.t24.http.api.ENQUIRY" name="com.corebanking.testmanager.t24.http.api.ENQUIRY" scriptExecution="FAILED" user="WATUNCAR1" usergroup="TEST_QA">
+                                                <SENT/>
+                                                <RECEIVED/>
+                                                <SENT/>
+                                                <RECEIVED/>
+                                                <Testcase Reason="" Status="1" Text="java.lang.IllegalStateException: non-sensical empty or null argument array" Time="1662656622445"/>
+                                                <Testcase Reason="org.slf4j.helpers.FormattingTuple:54" Status="1" Text="org.slf4j.helpers.FormattingTuple.trimmedCopy(FormattingTuple.java:54)" Time="1662656622445"/>
+                                                <Testcase Reason="org.slf4j.helpers.FormattingTuple:48" Status="1" Text="org.slf4j.helpers.FormattingTuple.&amp;lt;init&amp;gt;(FormattingTuple.java:48)" Time="1662656622445"/>
+                                                <Testcase Reason="org.ops4j.pax.logging.spi.support.FormattingTriple:40" Status="1" Text="org.ops4j.pax.logging.spi.support.FormattingTriple.&amp;lt;init&amp;gt;(FormattingTriple.java:40)" Time="1662656622445"/>
+                                                <Testcase Reason="org.ops4j.pax.logging.spi.support.FormattingTriple:84" Status="1" Text="org.ops4j.pax.logging.spi.support.FormattingTriple.forArguments(FormattingTriple.java:84)" Time="1662656622445"/>
+                                                <Testcase Reason="org.ops4j.pax.logging.spi.support.FormattingTriple:66" Status="1" Text="org.ops4j.pax.logging.spi.support.FormattingTriple.resolve(FormattingTriple.java:66)" Time="1662656622445"/>
+                                                <Testcase Reason="org.ops4j.pax.logging.spi.support.DefaultServiceLog:409" Status="1" Text="org.ops4j.pax.logging.spi.support.DefaultServiceLog.error(DefaultServiceLog.java:409)" Time="1662656622445"/>
+                                                <Testcase Reason="org.apache.log4j.Category:436" Status="1" Text="org.apache.log4j.Category.error(Category.java:436)" Time="1662656622445"/>
+                                                <Testcase Reason="org.apache.log4j.Logger:231" Status="1" Text="org.apache.log4j.Logger.error(Logger.java:231)" Time="1662656622445"/>
+                                                <Testcase Reason="com.corebanking.testmanager.t24.http.api.AbstractHttpScriptT24:2598" Status="1" Text="com.corebanking.testmanager.t24.http.api.AbstractHttpScriptT24.generalScriptExecution(AbstractHttpScriptT24.java:2598)" Time="1662656622445"/>
+                                                <Testcase Reason="com.corebanking.testmanager.t24.http.api.ENQUIRY:60" Status="1" Text="com.corebanking.testmanager.t24.http.api.ENQUIRY.runScript(ENQUIRY.java:60)" Time="1662656622445"/>
+                                                <Testcase Reason="com.corebanking.testmanager.core.api.AbstractScript:488" Status="1" Text="com.corebanking.testmanager.core.api.AbstractScript.run(AbstractScript.java:488)" Time="1662656622445"/>
+                                                <Testcase Reason="java.lang.Thread:-1" Status="1" Text="java.lang.Thread.run(Unknown Source)" Time="1662656622445"/>
+                                            </Script>
+                                        </Outputs>
+                                    </Sequence>
+                                </Result>
+                            </Call>
+                        </Script>
+                    </Iteration>
+                    <Iteration Time="1662656621116" number="2">
+                        <Script Duration="1532" Time="1662656621116" class="com.corebanking.testmanager.core.api.XmlCallScript" name="com.corebanking.testmanager.core.api.XmlCallScript" scriptExecution="PASSED">
+                            <Call Status="12" Text="call details" Time="1662656621132" UniqueCallName="pack__CRITERIOS_CLIENTE_CRI_ACEPTACIO_ALTA_CLIENTE_1_10" User="1" UserGroup="UserGroup" callee="AUTOMATIZACION.pack__CRITERIOS_CLIENTE_CRI_ACEPTACIO_ALTA_CLIENTE_1" xmloutFile=".CDP_ALTA_CLIENTE_NATURAL_MASIVA_1/pack__CRITERIOS_CLIENTE_CRI_ACEPTACIO_ALTA_CLIENTE_1_10/pack__CRITERIOS_CLIENTE_CRI_ACEPTACIO_ALTA_CLIENTE_1_10.xmlout">
+                                <Parameters/>
+                                <Result blockersCount="13" firstErrorMessage="java.lang.IllegalStateException: non-sensical empty or null argument array">
+                                    <Sequence Duration="828" Time="1662656621632" comment="" number="1" seqid="3" type="Test">
+                                        <Inputs/>
+                                        <Outputs Time="1662656621632">
+                                            <Script Duration="735" Time="1662656621710" class="com.corebanking.testmanager.t24.http.api.ENQUIRY" name="com.corebanking.testmanager.t24.http.api.ENQUIRY" scriptExecution="FAILED" user="WATUNCAR1" usergroup="TEST_QA">
+                                                <SENT/>
+                                                <RECEIVED/>
+                                                <SENT/>
+                                                <RECEIVED/>
+                                                <Testcase Reason="" Status="1" Text="java.lang.IllegalStateException: non-sensical empty or null argument array" Time="1662656622445"/>
+                                                <Testcase Reason="org.slf4j.helpers.FormattingTuple:54" Status="1" Text="org.slf4j.helpers.FormattingTuple.trimmedCopy(FormattingTuple.java:54)" Time="1662656622445"/>
+                                                <Testcase Reason="org.slf4j.helpers.FormattingTuple:48" Status="1" Text="org.slf4j.helpers.FormattingTuple.&amp;lt;init&amp;gt;(FormattingTuple.java:48)" Time="1662656622445"/>
+                                                <Testcase Reason="org.ops4j.pax.logging.spi.support.FormattingTriple:40" Status="1" Text="org.ops4j.pax.logging.spi.support.FormattingTriple.&amp;lt;init&amp;gt;(FormattingTriple.java:40)" Time="1662656622445"/>
+                                                <Testcase Reason="org.ops4j.pax.logging.spi.support.FormattingTriple:84" Status="1" Text="org.ops4j.pax.logging.spi.support.FormattingTriple.forArguments(FormattingTriple.java:84)" Time="1662656622445"/>
+                                                <Testcase Reason="org.ops4j.pax.logging.spi.support.FormattingTriple:66" Status="1" Text="org.ops4j.pax.logging.spi.support.FormattingTriple.resolve(FormattingTriple.java:66)" Time="1662656622445"/>
+                                                <Testcase Reason="org.ops4j.pax.logging.spi.support.DefaultServiceLog:409" Status="1" Text="org.ops4j.pax.logging.spi.support.DefaultServiceLog.error(DefaultServiceLog.java:409)" Time="1662656622445"/>
+                                                <Testcase Reason="org.apache.log4j.Category:436" Status="1" Text="org.apache.log4j.Category.error(Category.java:436)" Time="1662656622445"/>
+                                                <Testcase Reason="org.apache.log4j.Logger:231" Status="1" Text="org.apache.log4j.Logger.error(Logger.java:231)" Time="1662656622445"/>
+                                                <Testcase Reason="com.corebanking.testmanager.t24.http.api.AbstractHttpScriptT24:2598" Status="1" Text="com.corebanking.testmanager.t24.http.api.AbstractHttpScriptT24.generalScriptExecution(AbstractHttpScriptT24.java:2598)" Time="1662656622445"/>
+                                                <Testcase Reason="com.corebanking.testmanager.t24.http.api.ENQUIRY:60" Status="1" Text="com.corebanking.testmanager.t24.http.api.ENQUIRY.runScript(ENQUIRY.java:60)" Time="1662656622445"/>
+                                                <Testcase Reason="com.corebanking.testmanager.core.api.AbstractScript:488" Status="1" Text="com.corebanking.testmanager.core.api.AbstractScript.run(AbstractScript.java:488)" Time="1662656622445"/>
+                                                <Testcase Reason="java.lang.Thread:-1" Status="1" Text="java.lang.Thread.run(Unknown Source)" Time="1662656622445"/>
+                                            </Script>
+                                        </Outputs>
+                                    </Sequence>
+                                </Result>
+                            </Call>
+                        </Script>
+                    </Iteration>
+                </Outputs>
+            </Sequence>
+        </Day>
+    </ExecutionLog>
+</Root>
